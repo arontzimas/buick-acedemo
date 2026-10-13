@@ -1,42 +1,47 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
+ "cleanUrls": true,
+ "trailingSlash": false,
+ "rewrites": [
+  {
+   "source": "/content/:path*",
+   "destination": "https://www.buick.com/content/:path*"
+  },
+  {
+   "source": "/etc.clientlibs/:path*",
+   "destination": "https://www.buick.com/etc.clientlibs/:path*"
+  },
+  {
+   "source": "/_gbpe/:path*",
+   "destination": "https://www.buick.com/_gbpe/:path*"
+  },
+  {
+   "source": "/suvs/:path*/jcr:content/:rest*",
+   "destination": "https://www.buick.com/suvs/:path*/jcr:content/:rest*"
+  }
+ ],
+ "headers": [
+  {
+   "source": "/(content|etc.clientlibs|_ext|ace/img)/(.*)",
+   "headers": [
     {
-      "source": "/content/:path*",
-      "destination": "https://www.buick.com/content/:path*"
-    },
-    {
-      "source": "/etc.clientlibs/:path*",
-      "destination": "https://www.buick.com/etc.clientlibs/:path*"
-    },
-    {
-      "source": "/_gbpe/:path*",
-      "destination": "https://www.buick.com/_gbpe/:path*"
-    },
-    {
-      "source": "/suvs/:path*/jcr:content/:rest*",
-      "destination": "https://www.buick.com/suvs/:path*/jcr:content/:rest*"
+     "key": "Cache-Control",
+     "value": "public, max-age=604800"
     }
-  ],
-  "headers": [
+   ]
+  },
+  {
+   "source": "/(.*)",
+   "headers": [
     {
-      "source": "/(content|etc.clientlibs|_ext|ace/img)/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=604800"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        }
-      ]
+     "key": "X-Robots-Tag",
+     "value": "noindex, nofollow"
     }
-  ]
+   ]
+  }
+ ],
+ "functions": {
+  "api/ace.mjs": {
+   "maxDuration": 60
+  }
+ }
 }

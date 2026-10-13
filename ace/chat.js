@@ -54,7 +54,7 @@
         row.classList.add('is-answered');
         b.classList.add('is-selected');
         b.setAttribute('aria-pressed', 'true');
-        answerQuiz(block.step, o);
+        if (block.step) answerQuiz(block.step, o); else { busy = false; ask(o); }
       });
       row.appendChild(b);
     });
@@ -305,17 +305,112 @@
     var y = n.getBoundingClientRect().top + window.scrollY - (header ? header.offsetHeight : 0) - 8;
     window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
   }
-  function respondInto(turn, result) {
+  var asked = {};
+  var convo = []; // compact history sent to Claude
+  var AI_ON = (function () {
+    var m = /[?&]ai=([01])/.exec(location.search);
+    try { if (m) { if (m[1] === '0') sessionStorage.setItem('ace:ai', '0'); else sessionStorage.removeItem('ace:ai'); } } catch (e) {}
+    return safeGet('ace:ai') !== '0' && !!(window.fetch && window.ReadableStream && window.TextDecoder);
+  })();
+
+  function strip(h) { var d = document.createElement('div'); d.innerHTML = h; return d.textContent || ''; }
+  function summarize(blocks) {
+    var out = blocks.map(function (b) {
+      switch (b.type) {
+        case 'text': return b.text || (b.lines ? b.lines.filter(Boolean).join(', ') : strip(b.html || ''));
+        case 'headline': return '[headline: ' + b.title + (b.sub ? ' — ' + b.sub : '') + ']';
+        case 'compare': return '[compare: ' + b.cols.map(function (c) { return c.title + (c.price ? ' ' + c.price : ''); }).join(' vs ') + ']';
+        case 'specs': return '[dimensions: ' + b.desc + ']';
+        case 'media': return '[photo: ' + (b.alt || 'image') + ']';
+        case 'carousel': return '[carousel: ' + b.items.map(function (i) { return i.title; }).join(', ') + ']';
+        case 'cards': return '[cards: ' + b.items.map(function (i) { return i.text; }).join(' | ') + ']';
+        case 'cta': return '[options: ' + b.question + ' — ' + b.options.join(', ') + ']';
+        case 'follow': return '[suggested next: ' + b.items.join(' | ') + ']';
+      }
+      return '';
+    }).filter(Boolean).join(' ');
+    return out.slice(0, 700);
+  }
+  function remember(q, blocks) {
+    convo.push({ role: 'user', text: q });
+    convo.push({ role: 'assistant', text: summarize(blocks) });
+    if (convo.length > 12) convo = convo.slice(-12);
+  }
+  function done() { busy = false; bar.input.focus({ preventScroll: true }); }
+
+  // scripted answer (Figma templates, quiz, and fallback)
+  function respondInto(turn, result, q, quick) {
     var typing = cTyping();
     turn.appendChild(typing);
-    var delay = 650 + Math.random() * 350;
+    var delay = quick ? 0 : 650 + Math.random() * 350;
     setTimeout(function () {
       typing.remove();
       var nodes = result.blocks.map(function (b) { return (RENDER[b.type] || cText)(b); });
-      reveal(turn, nodes, function () { busy = false; bar.input.focus({ preventScroll: true }); });
+      if (q) remember(q, result.blocks);
+      reveal(turn, nodes, done);
     }, delay);
   }
-  var asked = {};
+
+  // Claude-composed answer, streamed component by component
+  function aiInto(turn, q) {
+    var typing = cTyping();
+    turn.appendChild(typing);
+    var ctx = {}, shown = [], queue = [], running = false, ended = false, got = false, closed = false;
+    var ctrl = window.AbortController ? new AbortController() : null;
+    var firstGuard = setTimeout(function () { if (!got && ctrl) ctrl.abort(); }, 20000);
+    var hardGuard = setTimeout(function () { if (ctrl) ctrl.abort(); }, 50000);
+    function pump() {
+      if (running || closed) return;
+      var n = queue.shift();
+      if (!n) { if (ended) finish(); return; }
+      running = true;
+      turn.insertBefore(n, typing);
+      requestAnimationFrame(function () { requestAnimationFrame(function () { n.classList.add('is-in'); }); });
+      setTimeout(function () { running = false; pump(); }, 130);
+    }
+    function finish() {
+      if (closed) return; closed = true;
+      clearTimeout(firstGuard); clearTimeout(hardGuard);
+      typing.remove();
+      remember(q, shown);
+      done();
+    }
+    function fallback() {
+      if (closed) return; closed = true;
+      clearTimeout(firstGuard); clearTimeout(hardGuard);
+      typing.remove();
+      respondInto(turn, E.respond(q, state), q, true);
+    }
+    function onMsg(m) {
+      if (m.v && E.NAME[m.v]) state.vehicle = m.v;
+      if (m.b) {
+        var bl = E.fromAI(m.b, ctx, state);
+        bl.forEach(function (b) { shown.push(b); queue.push((RENDER[b.type] || cText)(b)); });
+        if (bl.length) { got = true; clearTimeout(firstGuard); pump(); }
+      }
+      if (m.error && !got) throw new Error(m.error);
+    }
+    function end() { ended = true; if (!got) fallback(); else pump(); }
+    fetch('/api/ace', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ q: q, history: convo.slice(-8), page: from, vehicle: state.vehicle, pageVehicle: state.pageVehicle }),
+      signal: ctrl ? ctrl.signal : undefined
+    }).then(function (res) {
+      if (!res.ok || !res.body) throw new Error('http ' + res.status);
+      var reader = res.body.getReader(), dec = new TextDecoder(), buf = '';
+      return (function read() {
+        return reader.read().then(function (r) {
+          if (r.done) { if (buf.trim()) onMsg(JSON.parse(buf)); return; }
+          buf += dec.decode(r.value, { stream: true });
+          var lines = buf.split('\n'); buf = lines.pop();
+          lines.forEach(function (l) { if (l.trim()) { var m; try { m = JSON.parse(l); } catch (e) { return; } onMsg(m); } });
+          return read();
+        });
+      })();
+    }).then(end, end);
+  }
+
   function ask(q) {
     q = (q || '').trim();
     if (!q || busy) return;
@@ -327,8 +422,9 @@
     turn.appendChild(u);
     requestAnimationFrame(function () { u.classList.add('is-in'); });
     if (thread.children.length > 1) setTimeout(function () { scrollToNode(turn); }, 30);
-    var result = E.respond(q, state);
-    respondInto(turn, result);
+    var fixed = E.matchFigma(q, state); // the six Figma answers stay exactly as designed
+    if (fixed || !AI_ON) respondInto(turn, fixed || E.respond(q, state), q);
+    else aiInto(turn, q);
   }
   function answerQuiz(step, answer) {
     busy = true;
@@ -337,7 +433,7 @@
     turn.appendChild(u);
     requestAnimationFrame(function () { u.classList.add('is-in'); });
     setTimeout(function () { scrollToNode(turn); }, 30);
-    respondInto(turn, E.quizStep(step, answer, state));
+    respondInto(turn, E.quizStep(step, answer, state), answer);
   }
 
   /* ---------------- bar (same AI Chat component as the site pages) ---------------- */

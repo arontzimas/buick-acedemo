@@ -668,8 +668,155 @@
     return r;
   }
 
+  /* ---------------- the six Figma answers stay fixed ---------------- */
+  // Returns the verbatim Figma template when the question is one of the six designed prompts, else null.
+  function matchFigma(query, state) {
+    var q = query.trim();
+    var ql = lower(q).replace(/[’]/g, '\'');
+    var ent = detect(q);
+    var explicit = ent.vehicles[0] || null;
+    var ctx = explicit || state.vehicle || state.pageVehicle || null;
+    var isCompare = /\b(differen\w*|differ|compare|comparison|vs\.?|versus|between)\b/.test(ql);
+    var r = null;
+    if (isCompare && (explicit === 'envision' || (!explicit && ctx === 'envision')) && ent.trims.indexOf('Preferred') !== -1 && ent.trims.indexOf('Avenir') !== -1 && ent.trims.length === 2 && ent.vehicles.length <= 1) r = FIGMA.compareEnvision();
+    else if (/\b(smallest|most compact|tiniest)\b/.test(ql) && /\b(suv|lineup|vehicle|model|buick|one)\b/.test(ql) && !explicit) r = FIGMA.smallest();
+    else if (/^(tell me about |what are (the )?|show me (the )?)?(the )?(envista('s)? )?safety( features)?( on the envista| of the envista)?\??$/.test(ql) && (explicit === 'envista' || (!explicit && (!ctx || ctx === 'envista')))) r = FIGMA.safetyEnvista();
+    else if (/\b(luxury|premium)\b/.test(ql) && /\b(brand|considered)\b/.test(ql) && !explicit && !/feature/.test(ql)) r = FIGMA.premiumBrand();
+    else if ((/\b(best|right|ideal)\b/.test(ql) && /\b(buick|model|suv)\b/.test(ql) && /\bfor me\b/.test(ql) && !explicit) || /\b(which|what) (buick|suv|model|one) should i (get|buy|choose)\b|help me (choose|pick|decide)\b/.test(ql)) { r = FIGMA.bestForMe(); state.quiz = {}; }
+    else if (/\b(talk|speak|chat|connect)\b.*\b(someone|somebody|person|human|sales\w*|dealer\w*|expert|representative|rep)\b|\b(dealer|dealership)s? (near|close)\b|\bnear me\b|\bfind (a )?dealer/.test(ql)) r = FIGMA.dealer(explicit || (/near me/.test(ql) ? null : ctx));
+    if (r && r.vehicle) state.vehicle = r.vehicle;
+    return r;
+  }
+
+  /* ---------------- AI composition: Claude's blocks -> Figma components ----------------
+     Claude chooses components and writes copy; prices, cut-outs, dimension drawings and
+     image files always come from the buick.com data here, so nothing visual is invented. */
+  var FIGMA_FILES = ['enclave-highlight.jpg', 'forward-collision-alert.jpg', 'rear-park-assist.jpg', 'seats-interior.jpg', 't1-envision-avenir.webp', 't1-envision-preferred.webp', 't2-card-encore-gx-st.jpg', 't2-card-parking.jpg', 't5-envista-mural.jpg'];
+  var VIDEOS = {
+    '6373867925112': 'envista', '6371222418112': 'encore-gx', '6375637483112': 'envision', '6399107685112': 'enclave',
+    '6399108686112': 'enclave', '6403161249112': 'enclave', '6375641220112': 'envision', '6391193395112': 'envista',
+    '6400668406112': 'enclave', '6400669012112': 'enclave', '6400669288112': 'enclave', '6400668206112': 'enclave', '6400667627112': 'enclave'
+  };
+  var IMG_BY_ID = null;
+  function imgIndex() {
+    if (IMG_BY_ID) return IMG_BY_ID;
+    IMG_BY_ID = {};
+    ORDER.forEach(function (v) {
+      var lib = L[v] || {};
+      Object.keys(lib).forEach(function (cat) {
+        lib[cat].forEach(function (e) { IMG_BY_ID[v + '/' + cat + '/' + e.name] = { src: e.src, cat: cat, vehicle: v, e: e }; });
+      });
+    });
+    FIGMA_FILES.forEach(function (f) { IMG_BY_ID['figma/' + f.replace(/\.\w+$/, '')] = { src: FIG + f, cat: 'figma' }; });
+    return IMG_BY_ID;
+  }
+  function resolveImg(id) {
+    if (!id) return null;
+    var k = String(id).trim().replace(/^\/?ace\/img\//, '').replace(/^\//, '').replace(/\.(jpg|jpeg|png|webp)$/i, '');
+    return imgIndex()[k] || null;
+  }
+  function cutout(r) { return r.cat === 'jelly' || /homepage-buick-|t1-envision-/.test(r.src); }
+  function vid(id) { id = String(id || '').replace(/\D/g, ''); return VIDEOS[id] ? id : null; }
+  function isV(id) { return ORDER.indexOf(id) !== -1; }
+  function trimName(t) { return TRIMS.indexOf(t) !== -1 ? t : ''; }
+  function clean(s) { return String(s == null ? '' : s).replace(/\*\*|__|`/g, '').replace(/\s+\n/g, '\n').trim(); }
+  function list(a, n) { return (Array.isArray(a) ? a : []).map(clean).filter(Boolean).slice(0, n); }
+
+  function fromAI(b, ctx, state) {
+    ctx = ctx || {};
+    ctx.used = ctx.used || {};
+    function pic(id) { var r = resolveImg(id); if (!r || ctx.used[r.src]) return null; ctx.used[r.src] = 1; return r; }
+    var v, t;
+    switch (b && b.type) {
+      case 'text': {
+        var tx = clean(b.text);
+        return tx ? [T(tx)] : [];
+      }
+      case 'list': {
+        var items = list(b.items, 8);
+        return items.length ? [{ type: 'compare', single: true, cols: [{ title: clean(b.title) || 'Highlights', items: items }] }] : [];
+      }
+      case 'headline': {
+        v = b.vehicle; if (!isV(v)) return [];
+        t = trimName(b.trim);
+        var first = !ctx.headlines; ctx.headlines = (ctx.headlines || 0) + 1;
+        var opts = t ? { title: V(v).name + ' ' + t, sub: 'Starting at ' + trimOf(v, t).startingPrice + '*' } : { title: full(v) };
+        opts.divider = !first; opts.tight = first;
+        return [headline(v, opts)];
+      }
+      case 'media': {
+        var m = pic(b.image);
+        if (m && cutout(m)) { var hv = m.vehicle || 'envision'; m = pic(PHOTO[hv].hero) || m; }
+        if (!m) return [];
+        return [{ type: 'media', img: m.src, alt: clean(b.alt) || '', video: vid(b.video) }];
+      }
+      case 'carousel': {
+        var its = (Array.isArray(b.items) ? b.items : []).slice(0, 6).map(function (it) {
+          var r = pic(it.image);
+          if (!r) return null;
+          return { img: r.src, alt: clean(it.title), title: clean(it.title), sub: clean(it.subtitle), jelly: cutout(r), video: vid(it.video), q: clean(it.question) || null };
+        }).filter(Boolean);
+        // keep a carousel consistent: all cut-outs or all photos (whichever Claude used more)
+        var nCut = its.filter(function (x) { return x.jelly; }).length;
+        if (nCut && nCut < its.length) { var keepCut = nCut > its.length - nCut; its = its.filter(function (x) { return !!x.jelly === keepCut; }); }
+        return its.length >= 2 ? [{ type: 'carousel', items: its }] : its.length === 1 ? [{ type: 'media', img: its[0].img, alt: its[0].alt, video: its[0].video }] : [];
+      }
+      case 'cards': {
+        var cs = (Array.isArray(b.items) ? b.items : []).slice(0, 3).map(function (c) {
+          var r = pic(c.image), cap = clean(c.caption);
+          return r && cap ? { img: r.src, alt: cap, text: cap } : null;
+        }).filter(Boolean);
+        return cs.length >= 2 ? [{ type: 'cards', items: cs }] : [];
+      }
+      case 'compare': {
+        var cols = (Array.isArray(b.columns) ? b.columns : []).filter(function (c) { return isV(c.vehicle); }).slice(0, 3);
+        if (!cols.length) return [];
+        if (cols.length === 1 && !trimName(cols[0].trim)) {
+          var hl1 = list(cols[0].highlights, 6);
+          return hl1.length ? [{ type: 'compare', single: true, cols: [{ title: clean(cols[0].highlights_title) || 'Highlights', items: hl1 }] }] : [];
+        }
+        return [{ type: 'compare', cols: cols.map(function (c, i) {
+          var cv = V(c.vehicle), ct = trimName(c.trim), j, price, title, items = list(c.highlights, 6);
+          if (ct) {
+            var tr = trimOf(c.vehicle, ct);
+            j = jelly(c.vehicle, ct); price = tr.startingPrice; title = cv.name + ' ' + ct;
+            if (!items.length) items = (tr.highlights || []).slice(0, 6);
+          } else {
+            var dj = DEFAULT_JELLY[c.vehicle];
+            j = jelly(c.vehicle, dj[0], [dj[1]]); price = cv.startingPrice; title = full(c.vehicle);
+            if (!items.length) items = ['Body style - ' + cv.segment, 'Seating - Up to ' + cv.seats, 'Engine - ' + shortEngine(cv.engine), 'GM-est. MPG - ' + cv.mpg, 'Length - ' + cv.dimensions.lengthIn + '"'];
+          }
+          return { title: title, img: j && j.src, alt: (j ? j.color + ' ' : '') + 'Buick ' + title, price: price, listTitle: clean(c.highlights_title) || (ct ? 'Trim Highlights' : 'Highlights'), items: items, alt2: i > 0 };
+        }) }];
+      }
+      case 'specs': {
+        v = b.vehicle; if (!isV(v)) return [];
+        var dm = V(v).dimensions;
+        return [{ type: 'specs', title: 'Specs', desc: dm.lengthIn + '" long, ' + dm.widthIn + '" wide and ' + dm.heightIn + '" tall' + (V(v).cargo ? ', with ' + decap(V(v).cargo) + '.' : '.'), img: specsImg(v, trimName(b.trim) || undefined), alt: 'Buick ' + V(v).name + ' side and rear dimensions' }];
+      }
+      case 'colors': {
+        v = b.vehicle; if (!isV(v)) return [];
+        t = trimName(b.trim) || DEFAULT_JELLY[v][0];
+        var js = ((L[v] && L[v].jelly) || []).filter(function (x) { return x.trim === t; });
+        if (!js.length) return [];
+        return [{ type: 'carousel', items: js.map(function (x) { return { img: x.src, alt: x.color + ' Buick ' + V(v).name, title: x.color, sub: V(v).name + ' ' + x.trim, jelly: true }; }) }];
+      }
+      case 'chips': {
+        var opts2 = list(b.options, 4);
+        return clean(b.question) && opts2.length >= 2 ? [{ type: 'cta', question: clean(b.question), options: opts2 }] : [];
+      }
+      case 'follow_ups': {
+        var qs = list(b.questions, 4);
+        return qs.length ? [follow(qs)] : [];
+      }
+    }
+    return [];
+  }
+
   global.ACEEngine = {
-    init: function (vehicles, images) { D = vehicles; L = images; },
+    init: function (vehicles, images) { D = vehicles; L = images; IMG_BY_ID = null; },
+    matchFigma: matchFigma,
+    fromAI: fromAI,
     respond: respond,
     quizStep: quizStep,
     NAME: NAME,
