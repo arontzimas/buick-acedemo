@@ -1,0 +1,16 @@
+/*!
+ * 
+ * name: @gbds/quantum
+ * version: 1.4.13
+ * @gbds/core dependency version: 6.0.0
+ * date: Tue Apr 08 2025 11:33:02 GMT-0500 (Central Daylight Time)
+ * Copyright 2020 GM Global Technology Operations LLC
+ * All Rights Reserved.
+ * This software is proprietary to GM Global Technology Operations LLC
+ * and is protected by intellectual property laws and international
+ * intellectual property treaties. Your access to this software is governed
+ * by the terms of your license agreement with GM Global Technology Operations LLC.
+ * Any other use of the software is strictly prohibited.
+ * 
+ */
+gb-content-well#sticky-column>gb-adv-grid>adv-col{display:none}gb-content-well#sticky-column>gb-adv-grid>adv-col.active{display:block}@media(width >= 1200px){gb-content-well#sticky-column>gb-adv-grid>adv-col{display:block}}

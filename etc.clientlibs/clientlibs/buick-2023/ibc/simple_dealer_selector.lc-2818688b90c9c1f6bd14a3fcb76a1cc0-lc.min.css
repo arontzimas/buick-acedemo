@@ -1,0 +1,36 @@
+.qf-simple-dealer-selector .qf-simple-dealer-selector-result .qf-sds-dealer-option.qf-sds-selected{font-style:normal;font-weight:900}
+.qf-simple-dealer-selector .qf-sds-not-found-error,.qf-simple-dealer-selector .qf-simple-dealer-selector-result{font-family:Roboto,Helvetica,sans-serif}
+.qf-simple-dealer-selector .qf-sds-not-found-error a,.qf-simple-dealer-selector .qf-simple-dealer-selector-result a{color:inherit;font-weight:500;text-decoration:underline}
+.qf-simple-dealer-selector .qf-sds-not-found-error a:visited,.qf-simple-dealer-selector .qf-simple-dealer-selector-result a:visited{color:#262626}
+.qf-simple-dealer-selector .qf-sds-not-found-error a:hover,.qf-simple-dealer-selector .qf-simple-dealer-selector-result a:hover,.qf-simple-dealer-selector .qf-sds-not-found-error a:active,.qf-simple-dealer-selector .qf-simple-dealer-selector-result a:active{color:#cd9834}
+.qf-simple-dealer-selector .qf-sds-not-found-error ul li,.qf-simple-dealer-selector .qf-simple-dealer-selector-result ul li,.qf-simple-dealer-selector .qf-sds-not-found-error ol li,.qf-simple-dealer-selector .qf-simple-dealer-selector-result ol li{margin-top:0}
+.qf-simple-dealer-selector .q-invert.qf-sds-not-found-error,.qf-simple-dealer-selector .q-invert.qf-simple-dealer-selector-result{color:#fff}
+.qf-simple-dealer-selector .q-invert.qf-sds-not-found-error a,.qf-simple-dealer-selector .q-invert.qf-simple-dealer-selector-result a{color:inherit;font-weight:inherit;text-decoration:underline}
+.qf-simple-dealer-selector .q-invert.qf-sds-not-found-error a:visited,.qf-simple-dealer-selector .q-invert.qf-simple-dealer-selector-result a:visited{color:#fff}
+.qf-simple-dealer-selector .q-invert.qf-sds-not-found-error a:hover,.qf-simple-dealer-selector .q-invert.qf-simple-dealer-selector-result a:hover,.qf-simple-dealer-selector .q-invert.qf-sds-not-found-error a:active,.qf-simple-dealer-selector .q-invert.qf-simple-dealer-selector-result a:active{color:#e6ac39}
+.qf-simple-dealer-selector .qf-sds-not-found-error,.qf-simple-dealer-selector .qf-simple-dealer-selector-result{font-size:1rem;line-height:1.5;color:#262626}
+@media print,only screen and (min-width:75em){.qf-simple-dealer-selector .qf-sds-not-found-error,.qf-simple-dealer-selector .qf-simple-dealer-selector-result{font-size:1.25rem;line-height:1.4}
+}
+@media only screen and (min-width:6250000em){.qf-simple-dealer-selector .qf-sds-not-found-error,.qf-simple-dealer-selector .qf-simple-dealer-selector-result{font-size:1.25rem;line-height:1.4}
+}
+.qf-simple-dealer-selector .qf-sds-not-found-error ul,.qf-simple-dealer-selector .qf-simple-dealer-selector-result ul,.qf-simple-dealer-selector .qf-sds-not-found-error ol,.qf-simple-dealer-selector .qf-simple-dealer-selector-result ol{margin:0 0 0 1.25rem}
+html{font-variant-ligatures:no-common-ligatures}
+ul{list-style-type:disc}
+.q-body1 a,.q-body2 a{text-decoration:none}
+.q-body1 a:hover,.q-body1 a:active,.q-body2 a:hover,.q-body2 a:active{text-decoration:underline}
+.q-body1 b,.q-body1 strong,.q-body2 b,.q-body2 strong{font-weight:600}
+.q-body1.q-invert a,.q-body2.q-invert a{text-decoration:underline}
+.q-display1,.q-display2,.q-display3{color:#262626}
+.q-display1 a,.q-display1 a:visited,.q-display2 a,.q-display2 a:visited,.q-display3 a,.q-display3 a:visited{color:#262626}
+.q-display1 a:hover,.q-display2 a:hover,.q-display3 a:hover{color:#c9480c;text-decoration:none}
+.q-display1 .q-heavy{letter-spacing:1px}
+.q-headline sup{font-size:.4em;letter-spacing:0;top:-0.5em}
+.q-headline2 .q-heavy{letter-spacing:2px}
+.q-label1,.q-label2{font-weight:300}
+.q-label2{letter-spacing:1px}
+.qf-simple-dealer-selector .gmit-qf-search-options{padding-bottom:.5rem}
+.qf-simple-dealer-selector .gmit-qf-search-options .gmit-qf-text-field-container .dealer-selector-zip-search{margin-bottom:.5rem !important}
+.qf-simple-dealer-selector .qf-simple-dealer-selector-result{background:#e6e6e6;max-height:15rem;min-height:4rem;overflow-y:auto;padding:.2rem}
+.qf-simple-dealer-selector .qf-simple-dealer-selector-result .qf-sds-dealer-option{background:#fff;border:1px solid gray;box-shadow:0 8px 15px rgba(0,0,0,0.1);cursor:pointer;margin-bottom:4px;padding:.5rem 1rem}
+.qf-simple-dealer-selector .qf-simple-dealer-selector-result .qf-sds-dealer-option.qf-sds-selected{border:5px solid #61af85;margin:3px 0}
+.qf-simple-dealer-selector .qf-sds-not-found-error{color:#e25959;display:none}

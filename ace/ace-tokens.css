@@ -1,0 +1,39 @@
+/* Buick ACE — foundations (Figma: Foundations page + variables) */
+:root {
+  --ace-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+
+  /* color */
+  --ace-surface: #f7f5f1;            /* color/surface/page/default */
+  --ace-surface-alt: #ffffff;        /* color/surface/page/alt */
+  --ace-text: #232323;               /* color/text/primary */
+  --ace-text-2: #707070;             /* color/text/secondary */
+  --ace-text-inverse: #ffffff;       /* color/text/inverse */
+  --ace-divider: #e2e0dc;            /* color/divider/default */
+  --ace-icon: #232323;               /* color/icon/default */
+  --ace-bg-primary: #232323;         /* color/interactive/bg-primary/default */
+  --ace-bg-secondary: #ffffff;       /* color/interactive/bg-secondary/default */
+  --ace-bg-tertiary: #eae6e1;        /* color/interactive/bg-tertiary/default */
+  --ace-bg-tertiary-focus: #cdcbc8;  /* color/interactive/bg-tertiary/focus */
+  --ace-bg-overlay: rgba(35, 35, 35, 0.4); /* color/interactive/bg-overlay/default */
+  --ace-bg-primary-hover: #4d4d4c;   /* color/interactive/bg-primary/hover + focus */
+  --ace-bg-secondary-hover: #e2e0dc; /* color/interactive/bg-secondary/hover + focus */
+  --ace-bg-tertiary-hover: #cdcbc8;  /* color/interactive/bg-tertiary/hover */
+
+  /* shape + spacing */
+  --ace-radius: 12px;                /* radius/control */
+  --ace-control-h: 48px;             /* size/control/height-default */
+  --ace-btn-px: 16px;                /* button/padding-x/default */
+  --ace-gap: 8px;                    /* space/control/gap */
+  --ace-margin: 36px;                /* grid/margin (desktop) */
+  --ace-container: 1044px;           /* grid/container */
+  --ace-shadow-bar: 0 4.858px 12.145px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 767px) {
+  :root { --ace-margin: 16px; }      /* grid/margin (mobile) */
+}
+
+/* type styles */
+.ace-t-para  { font: 400 14px/20px var(--ace-font); letter-spacing: -0.28px; }  /* paragraph  */
+.ace-t-label { font: 400 14px/14px var(--ace-font); letter-spacing: -0.28px; }  /* label      */
+.ace-t-d5    { font: 400 18px/24px var(--ace-font); letter-spacing: -0.18px; }  /* display-5  */
+.ace-t-d3    { font: 400 36px/40px var(--ace-font); letter-spacing: -1.8px;  }  /* display-3  */

@@ -1,0 +1,688 @@
+{
+ "envista": {
+  "id": "envista",
+  "name": "Envista",
+  "year": 2026,
+  "segment": "Crossover SUV",
+  "url": "/suvs/envista",
+  "tagline": "Redefine expectations",
+  "startingPrice": "$24,700",
+  "startingPriceNum": 24700,
+  "seats": 5,
+  "mpg": "28/32 (FWD)",
+  "mpgCity": 28,
+  "mpgHwy": 32,
+  "engine": "1.2L Turbo",
+  "drivetrain": "FWD only",
+  "dimensions": {
+   "lengthIn": 182.6,
+   "widthIn": 71.5,
+   "heightIn": 61.2
+  },
+  "cargo": "Max cargo space of 42 cu. ft. with the rear seats folded flat",
+  "offer": "1.9% APR for well-qualified buyers when you finance through GM Financial.",
+  "trims": [
+   {
+    "name": "Preferred",
+    "startingPrice": "$24,700",
+    "descriptor": "Beautiful aesthetics and substance",
+    "intro": "Distinctive, captivating features:",
+    "highlights": [
+     "Ultrawide 11\" diagonal HD color touchscreen",
+     "8\" diagonal Driver Information Center",
+     "Cloth with leatherette seating",
+     "Flat-bottom steering wheel",
+     "17\" bright silver-painted aluminum wheels",
+     "1.2L Turbo engine"
+    ],
+    "details": [
+     "Available wrapped, flat-bottom steering wheel",
+     "Cloth with leatherette seating",
+     "17\" bright silver-painted aluminum wheels"
+    ]
+   },
+   {
+    "name": "Sport Touring",
+    "startingPrice": "$26,500",
+    "descriptor": "A bold, athletic style",
+    "intro": "Bold, sporty features:",
+    "highlights": [
+     "ST embroidered front-seat head restraints",
+     "Flat-bottom wrapped steering wheel",
+     "Gloss Black mesh grille",
+     "Gloss Black mirror caps, bodyside molding, front and rear lower fascias",
+     "18\" Gloss Black-painted aluminum wheels",
+     "1.2L Turbo engine",
+     "Available Studio Series package"
+    ],
+    "details": [
+     "Available Studio Series package",
+     "Gloss Black mesh grille with a striking pattern",
+     "Athletic interior with Santorini Blue accents"
+    ]
+   },
+   {
+    "name": "Avenir",
+    "startingPrice": "$29,500",
+    "descriptor": "The highest expression of Buick luxury",
+    "intro": "Premium, elevated features:",
+    "highlights": [
+     "Perforated leather-appointed, heated front seats with Avenir embroidered front-seat head restraints",
+     "Heated flat-bottom wrapped steering wheel",
+     "Black Ice chrome Avenir grille",
+     "19\" aluminum wheels with Pearl Nickel finish",
+     "Power liftgate",
+     "1.2L Turbo engine"
+    ],
+    "details": [
+     "Black Ice chrome Avenir grille",
+     "Perforated leather-appointed front seats with a distinctive stitch pattern",
+     "19\" aluminum wheels with Pearl Nickel finish"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "title": "Ultrawide 11\" diagonal HD color touchscreen and infotainment display",
+    "description": "The Ultrawide 11\" diagonal infotainment screen combined with a reconfigurable 8\" diagonal Driver Information Center displays important information and modern conveniences. With wireless Apple CarPlay® compatibility and wireless Android Auto™ compatibility, you can seamlessly connect your favorite apps to your infotainment touchscreen."
+   },
+   {
+    "title": "Available power liftgate",
+    "description": "Opens with the simple press of a button, allowing quick and easy access to the rear cargo area."
+   },
+   {
+    "title": "Available moonroof",
+    "description": "Let in the sun with the available moonroof."
+   },
+   {
+    "title": "Check-shaped LED daytime running lamps",
+    "description": "Flowing from front to back, Envista’s dramatic look is distinguished by signature LED daytime running lamps above its wide, low-mounted grille."
+   },
+   {
+    "title": "#1 Most Dependable Mass Market Brand",
+    "description": "Recognized by JD Power as the #1 most dependable among mass market brands for the second year in a row, Buick crafts vehicles you can trust. Our commitment to reliability means your Buick will continue to impress long after you drive it off the lot."
+   }
+  ],
+  "safety": {
+   "suite": "Buick Driver Confidence",
+   "items": [
+    "Automatic Emergency Braking",
+    "Front Pedestrian Braking",
+    "Forward Collision Alert",
+    "Following Distance Indicator",
+    "Lane Keep Assist with Lane Departure Warning",
+    "IntelliBeam Auto High Beams"
+   ]
+  },
+  "faqs": [
+   {
+    "q": "Does the Buick Envista come in AWD?",
+    "a": "No, Envista is only offered with front-wheel drive (FWD).",
+    "detail": "All current Buick Envista models come with front-wheel drive, there is no all-wheel drive (AWD) option. FWD systems generally are more fuel efficient than AWD systems, FWD vehicles often have slightly more usable space, and FWD delivers confident reliable performance in most driving conditions. If you’re looking for a vehicle with AWD, Buick Encore GX, Envision or Enclave offer available AWD."
+   },
+   {
+    "q": "Is the Buick Envista electric?",
+    "a": "No, Envista is not an electric vehicle.",
+    "detail": "Envista is a gas-powered crossover SUV, equipped with a standard 1.2L turbocharged engine. Envista is designed to offer efficiency, style and everyday practicality using a familiar gas-powered platform."
+   },
+   {
+    "q": "What is the Buick Envista’s towing capacity?",
+    "a": "The Buick Envista does not offer towing capability.",
+    "detail": "Envista was not engineered for trailer towing and therefore does not offer a trailering package. Prioritizing comfort, fuel economy and everyday practicality, Envista is best suited for commuting, errands and road trips. If your lifestyle includes towing light loads like a small trailer or a jet ski, Encore GX or Envision may be a better fit."
+   },
+   {
+    "q": "When did the Buick Envista come out?",
+    "a": "The Buick Envista debuted in the U.S. in summer 2023 as Buick’s newest compact crossover.",
+    "detail": "The Envista was officially revealed in April 2023 and arrived at dealerships in the U.S. starting that summer. It introduced a sleek design that combines SUV versatility with coupe-like proportions. Inside, the Envista features a wide-format digital display, premium interior surfaces and advanced safety and driver assistance features."
+   },
+   {
+    "q": "How much is a Buick Envista?",
+    "a": "The 2026 Buick Envista starts at an MSRP of $24,700. It’s offered in three trims: Preferred, Sport Touring and Avenir.",
+    "detail": "Preferred (starting at $24,700) includes LED headlamps, 17\" bright silver-painted aluminum wheels, an Ultrawide 11\" diagonal HD color touchscreen, wireless Apple CarPlay® and wireless Android Auto™ compatibility, and Buick Driver Confidence — a standard suite of advanced safety and driver assistance features. Sport Touring (starting at $26,500) adds 18-inch gloss black wheels, custom Sport Touring grille and trim accents, and a flat-bottom steering wheel. Avenir (starting at $29,500) adds 19-inch machine-faced wheels, quilted leather-appointed seating, heated front seats, a power liftgate and enhanced interior materials."
+   },
+   {
+    "q": "Does the Buick Envista have a sunroof?",
+    "a": "Yes, Envista offers an available power moonroof on Sport Touring and Avenir trims. It slides open or tilts for ventilation and includes a sunshade.",
+    "detail": "It opens above the front row, retracts cleanly into the roof, and can also tilt upward to let in fresh air. A manual sunshade helps manage light when the glass is closed. The moonroof brings in natural light that elevates the atmosphere in the cabin."
+   },
+   {
+    "q": "Is the Buick Envista a car or SUV?",
+    "a": "Envista is a compact crossover SUV, even though it includes styling cues reminiscent of a coupe.",
+    "detail": "Envista’s sleek roofline and bold styling might suggest a sporty car, but it’s firmly built as a compact crossover SUV. It combines SUV traits, such as a raised ride height and flexible cargo capacity. That blend is a smart choice for those who want something between a sedan and a full-size SUV — nimble enough for city streets and parking, yet practical enough for daily life and weekend trips."
+   },
+   {
+    "q": "How do you remote start a Buick Envista?",
+    "a": "You can remote start a Buick Envista either via the key fob (if equipped) or using the myBuick mobile app (if your vehicle is properly equipped and the paid service is active).",
+    "detail": "Using the key fob: Press the lock button, then press and hold the remote start button (often a circular arrow icon) for about 4 seconds; the turn signals should flash to confirm the engine has started, and the remote start run time is typically 15 minutes (extendable to a total of 30). Using the myBuick mobile app: go to the My Vehicle tab on the home screen and press and hold the CLIMATE (or START) icon until the words “Keep Holding” disappear; the command will then display as “Sent” when successful. Always check that doors are locked, the vehicle is in Park and the hood is fully closed before attempting remote start."
+   },
+   {
+    "q": "How long is the Buick Envista?",
+    "a": "The Buick Envista is 182.6 inches long — roughly 15.2 feet (~4.63 meters).",
+    "detail": "At 182.6 inches in overall length, Envista occupies a middle ground in the compact crossover class — offering available seating for five, along with max cargo space of 42 cu. ft. with the rear seats folded flat and the maneuverability to handle tight parking spaces as well as suburban garages."
+   },
+   {
+    "q": "Does the Buick Envista have heated seats?",
+    "a": "Heated front seats are standard on Envista Avenir and are available on Preferred and Sport Touring models.",
+    "detail": "Envista Avenir models offer standard heated front seats. On Preferred and Sport Touring models, heated front seats are available as part of the Convenience I Package, which also includes features like a power-adjustable driver’s seat and flat-bottom steering wheel (standard on Sport Touring)."
+   }
+  ],
+  "similar": [
+   "encore-gx",
+   "envision",
+   "enclave"
+  ]
+ },
+ "encore-gx": {
+  "id": "encore-gx",
+  "name": "Encore GX",
+  "year": 2026,
+  "segment": "Small SUV",
+  "url": "/suvs/encore-gx",
+  "tagline": "Designed to transform everyday moments",
+  "startingPrice": "$26,895",
+  "startingPriceNum": 26895,
+  "seats": 5,
+  "mpg": "29/31 (FWD); 26/28 (available AWD)",
+  "mpgCity": 29,
+  "mpgHwy": 31,
+  "engine": "1.3L Turbo",
+  "drivetrain": "FWD standard; AWD available on every trim",
+  "dimensions": {
+   "lengthIn": 171.1,
+   "widthIn": 71.3,
+   "heightIn": 64.1
+  },
+  "cargo": "Maximum cargo space: 50.2 cu. ft. with rear seats folded; about 23.5 cu. ft. behind the rear seats",
+  "offer": "1.9% APR for well-qualified buyers when you finance through GM Financial.",
+  "trims": [
+   {
+    "name": "Preferred",
+    "startingPrice": "$26,895",
+    "descriptor": "Sophistication with every drive",
+    "intro": "Distinctive, captivating features:",
+    "highlights": [
+     "Cloth with leatherette seating",
+     "18\" Bright Silver painted aluminum wheels",
+     "1.3L Turbo engine"
+    ],
+    "details": [
+     "18\" Bright Silver painted aluminum wheels",
+     "Ultrawide 11\" diagonal HD color touchscreen and infotainment display",
+     "Cloth with leatherette seating"
+    ]
+   },
+   {
+    "name": "Sport Touring",
+    "startingPrice": "$27,700",
+    "descriptor": "A bold, athletic style",
+    "intro": "Bold, sporty features:",
+    "highlights": [
+     "Flat-bottom steering wheel",
+     "Leatherette seating with ST logo embroidered on front-seat head restraints",
+     "Gloss-black grille and front fascia with unique gloss-black accents",
+     "18\" Gloss Black wheels",
+     "1.3L Turbo engine with a 9-speed automatic transmission",
+     "Available Studio Series package"
+    ],
+    "details": [
+     "Available Studio Series package",
+     "18\" Gloss Black wheels",
+     "Leatherette seats with perforated inserts and Santorini Blue accents"
+    ]
+   },
+   {
+    "name": "Avenir",
+    "startingPrice": "$31,700",
+    "descriptor": "The highest expression of Buick luxury",
+    "intro": "Premium, elevated features:",
+    "highlights": [
+     "Perforated Leather-appointed front seats with Avenir logo embroidered on front-seat head restraints",
+     "Heated steering wheel",
+     "Dual-zone automatic climate control",
+     "19\" aluminum wheels with Pearl Nickel finish",
+     "1.3L Turbo engine with a 9-speed automatic transmission"
+    ],
+    "details": [
+     "Exclusive Avenir grille and bright chrome accents",
+     "19\" aluminum wheels with Pearl Nickel finish",
+     "Perforated leather-appointed seats with a unique quilted stitching pattern"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "title": "Ultrawide 11\" diagonal HD color touchscreen and infotainment display",
+    "description": "The Ultrawide 11\" diagonal infotainment screen combined with a reconfigurable 8\" diagonal Driver Information Center displays important information and modern conveniences. With wireless Apple CarPlay® compatibility and wireless Android Auto™ compatibility, you can seamlessly connect your favorite apps to your infotainment touchscreen."
+   },
+   {
+    "title": "Available Panoramic power moonroof",
+    "description": "Welcome in the sunshine with the panoramic moonroof."
+   },
+   {
+    "title": "40/60 split rear seats and available flat-folding front-passenger seatback",
+    "description": "Adapt to any situation with flexible seating configurations in the small SUV."
+   },
+   {
+    "title": "Available hands-free power liftgate",
+    "description": "Available on Avenir – open and close your liftgate with a simple kicking motion below the bumper."
+   },
+   {
+    "title": "#1 Most Dependable Mass Market Brand",
+    "description": "Recognized by JD Power as the #1 most dependable among mass market brands for the second year in a row, Buick crafts vehicles you can trust. Our commitment to reliability means your Buick will continue to impress long after you drive it off the lot."
+   }
+  ],
+  "safety": {
+   "suite": "Buick Driver Confidence",
+   "items": [
+    "Front Pedestrian Braking",
+    "Forward Collision Alert",
+    "Automatic Emergency Braking",
+    "Lane Keep Assist with Lane Departure Warning",
+    "Following Distance Indicator",
+    "IntelliBeam Auto High Beams"
+   ]
+  },
+  "faqs": [
+   {
+    "q": "How much is a Buick Encore GX?",
+    "a": "The 2026 Buick Encore GX starts at $26,895.",
+    "detail": "The 2026 Buick Encore GX is offered in three trims — Preferred, Sport Touring and Avenir. Preferred (starting at $26,895) includes Buick’s signature QuietTuning®, an Ultrawide 11\" diagonal HD color touchscreen, wireless Apple CarPlay® and wireless Android Auto™ compatibility, and standard advanced safety and driver assistance features, including Automatic Emergency Braking and Lane Keep Assist with Lane Departure Warning. Sport Touring (starting at $27,700) features 18-inch Gloss Black wheels, unique grille and trim accents, ST badging and a flat-bottom steering wheel, while Avenir (starting at $31,700) delivers elevated refinement with 19-inch wheels, perforated leather-appointed seats, a power liftgate and upgraded interior finishes."
+   },
+   {
+    "q": "What does the GX stand for in Buick Encore GX?",
+    "a": "The “GX” in Buick Encore GX stands for Grand Crossover, highlighting its larger size and elevated position over the original Encore.",
+    "detail": "While it shares part of its name with Buick’s earlier subcompact SUV, the Encore GX is a completely distinct vehicle. The GX label helps communicate that this is a more premium and versatile SUV."
+   },
+   {
+    "q": "How to remote start Buick Encore GX?",
+    "a": "You can remote start a Buick Encore GX either via the key fob (if equipped) or using the myBuick mobile app’s remote commands (if your vehicle and plan support it).",
+    "detail": "Using the key fob: Press the lock button, then press and hold the remote start button (often a circular arrow icon) for about 4 seconds; the turn signals should flash to confirm the engine has started, and the remote start run time is typically 15 minutes (extendable to a total of 30). Using the myBuick mobile app: open the app, go to the My Vehicle tab and press and hold the remote start (or “CLIMATE”) icon until the “Keep Holding” prompt disappears; the command will show “Sent” when it succeeds. Your vehicle must be connected to a compatible OnStar® service plan for remote commands to function."
+   },
+   {
+    "q": "Is the Buick Encore GX all-wheel drive (AWD)?",
+    "a": "Yes, all-wheel drive is available on every Buick Encore GX trim, while front-wheel drive comes standard.",
+    "detail": "The Encore GX is designed with flexibility in mind. It offers standard front-wheel drive. For drivers who want added traction in wet, snowy or varied driving conditions, Buick offers available AWD across all trims."
+   },
+   {
+    "q": "How long is the Buick Encore GX?",
+    "a": "The 2026 Buick Encore GX measures 171.1 inches in length, about 14.26 feet.",
+    "detail": "At just over 14 feet long, the Encore GX strikes a balance between maneuverability and utility. It’s easy to park, navigate tight streets, and it fits in most residential garages and parking spaces. Despite its compact exterior, the Encore GX offers seating for five along with plenty of cargo space."
+   },
+   {
+    "q": "What is a Buick Encore GX?",
+    "a": "The Buick Encore GX is a small crossover SUV.",
+    "detail": "The Encore GX is designed to deliver the versatility of an SUV with excellent maneuverability for city driving, crowded parking lots and tight garages. Encore GX seats up to five passengers comfortably and offers a useful cargo area with 40/60 split folding rear seats for added flexibility and available all-wheel drive."
+   },
+   {
+    "q": "Is the Buick Encore GX bigger than the Encore?",
+    "a": "Yes — the Buick Encore GX is larger than the original Encore in length, width and cargo capacity, while still seating up to five.",
+    "detail": "Encore GX was designed to be a more spacious evolution of the original Encore. It features a longer wheelbase and offers more interior room and cargo flexibility. For example, the Encore GX’s cargo space behind the rear seats is about 23.5 cu. ft."
+   },
+   {
+    "q": "How much can a Buick Encore GX tow?",
+    "a": "The Buick Encore GX can tow up to 1,000 lbs., when properly equipped.",
+    "detail": "With the available Trailering Package, the Encore GX’s maximum towing capacity is 1,000 lbs. It’s best suited for light-duty tasks, such as hauling single-axle utility trailers, small boats like personal watercraft, garden equipment trailers or cargo racks — it’s not designed for large campers, heavy boats or large recreational trailers. The trailer hitch is an available dealer-installed option."
+   }
+  ],
+  "similar": [
+   "envista",
+   "envision",
+   "enclave"
+  ]
+ },
+ "envision": {
+  "id": "envision",
+  "name": "Envision",
+  "year": 2026,
+  "segment": "Compact SUV",
+  "url": "/suvs/envision",
+  "tagline": "Inspired by you",
+  "startingPrice": "$41,300",
+  "startingPriceNum": 41300,
+  "seats": 5,
+  "mpg": "22/28 (AWD)",
+  "mpgCity": 22,
+  "mpgHwy": 28,
+  "engine": "2.0L Turbo 4-cylinder (228 horsepower, 258 lb.-ft. of torque) with a 9-speed automatic transmission",
+  "drivetrain": "Standard intelligent AWD on all trims",
+  "dimensions": {
+   "lengthIn": 182.7,
+   "widthIn": 74.1,
+   "heightIn": 64.6
+  },
+  "cargo": "Maximum cargo space: 52.7 cu. ft. with rear seats folded",
+  "offer": "1.9% APR for well-qualified buyers when you finance through GM Financial.",
+  "trims": [
+   {
+    "name": "Preferred",
+    "startingPrice": "$41,300",
+    "descriptor": "Standout presence",
+    "intro": "Distinctive, captivating features:",
+    "highlights": [
+     "Ultrawide 30\" diagonal screen — the largest in its class",
+     "Google built-in compatibility",
+     "Remote commands",
+     "Suite of advanced safety and driver assistance technologies",
+     "QuietTuning® with Active Noise Cancellation",
+     "2.0L Turbo engine with a 9-speed automatic transmission"
+    ],
+    "details": [
+     "Perforated leatherette seating",
+     "Sleek grille and front fascia",
+     "18\" machined alloy wheels with Technical Gray finish"
+    ]
+   },
+   {
+    "name": "Sport Touring",
+    "startingPrice": "$43,800",
+    "descriptor": "Bold, athletic style",
+    "intro": "Bold, sporty features:",
+    "highlights": [
+     "Memory presets for driver seat and side mirrors",
+     "Perforated leather-appointed seats with suede-like leatherette inserts",
+     "ST-embossed front-seat head restraints",
+     "Leather-wrapped flat-bottom steering wheel",
+     "Alloy sport pedals",
+     "2.0L Turbo engine with a 9-speed automatic transmission"
+    ],
+    "details": [
+     "20\" Carbon Flash Metallic painted alloy wheels",
+     "Perforated leather-appointed seats with suede-like leatherette inserts",
+     "Black mesh grille with a unique pattern"
+    ]
+   },
+   {
+    "name": "Avenir",
+    "startingPrice": "$50,700",
+    "descriptor": "The highest expression of Buick luxury",
+    "intro": "Premium, elevated features:",
+    "highlights": [
+     "Panoramic moonroof",
+     "Hands-free programmable power liftgate with LED logo projection",
+     "Quilted perforated leather-appointed seats",
+     "Heated and ventilated front seats",
+     "8-way power and 4-way power lumbar front seats",
+     "2.0L Turbo engine with a 9-speed automatic transmission"
+    ],
+    "details": [
+     "Gloss Black grille with bright chrome mesh inserts",
+     "Premium 20\" alloy wheels with Pearl Nickel finish",
+     "Quilted perforated leather-appointed seats"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "title": "QuietTuning® with Active Noise Cancellation",
+    "description": "Envision’s QuietTuning technology helps keep outdoor noise out, creating a peaceful interior in your compact SUV. Choose from 126 ambient lighting colors to set the right mood."
+   },
+   {
+    "title": "Google built-in compatibility",
+    "description": "Get hands-free help with Google Assistant, seamlessly access Google Maps, and unlock Google Play for even more apps."
+   },
+   {
+    "title": "Ultrawide 30\" diagonal screen — the largest in its class",
+    "description": "A stunning display with effortless convenience."
+   },
+   {
+    "title": "Remote commands",
+    "description": "Take control of your Envision compact SUV from virtually anywhere. You can remotely start your vehicle, lock and unlock your doors, and more with remote commands."
+   },
+   {
+    "title": "#1 Most Dependable Mass Market Brand",
+    "description": "Recognized by JD Power as the #1 most dependable among mass market brands for the second year in a row, Buick crafts vehicles you can trust. Our commitment to reliability means your Buick will continue to impress long after you drive it off the lot."
+   }
+  ],
+  "safety": {
+   "suite": "Suite of advanced safety and driver assistance technologies",
+   "items": [
+    "Blind Zone Steering Assist",
+    "Front Pedestrian and Bicyclist Braking",
+    "Rear Cross Traffic Braking",
+    "Intersection Automatic Emergency Braking",
+    "Side Bicyclist Alert"
+   ]
+  },
+  "faqs": [
+   {
+    "q": "How much is a Buick Envision?",
+    "a": "The 2026 Buick Envision starts at an MSRP of $41,300. It comes in three trims: Preferred, Sport Touring and Avenir.",
+    "detail": "Preferred (MSRP starting at $41,300): Standard features include the ultrawide 30\" diagonal touch screen, Google built-in, a Bose 9-speaker premium audio system, wireless smartphone charging, a Head-Up Display and 18\" machined alloy wheels. Sport Touring (MSRP starting at $43,800) features 20\" Carbon Flash Metallic wheels, gloss black grille accents, leather-wrapped flat-bottom steering wheel, ST-embossed front-seat head restraints and alloy sport pedals. Avenir (MSRP starting at $50,700) offers a panoramic moonroof, quilted heated and ventilated leather-appointed front seats, a massaging driver seat, heated outboard rear seats, hands-free programmable power liftgate with LED logo projection, 20\" Pearl Nickel wheels, dual-zone automatic climate control and a Universal Home Remote."
+   },
+   {
+    "q": "What is the Buick Envision towing capacity?",
+    "a": "The Buick Envision can tow up to 1,500 lbs. across all trim levels when properly equipped.",
+    "detail": "That 1,500-lb. towing capacity applies to every trim of the Envision, because they share the same 2.0L turbocharged engine and 9-speed automatic transmission. While 1,500 lbs. of towing capability isn’t enough to haul heavy campers or large boats, it’s perfect for small utility trailers, ATVs, jet skis or bike/dirt bike trailers."
+   },
+   {
+    "q": "How long is a Buick Envision?",
+    "a": "The 2026 Buick Envision measures 182.7 inches long or just over 15 feet.",
+    "detail": "Envision is a compact SUV that strikes a balance between interior space and maneuverability. It gives you good cabin volume for five passengers, fits more easily into tighter parking spaces, urban garages and crowded lots than full-size SUVs, and offers excellent visibility and control in city driving or when navigating narrow streets."
+   },
+   {
+    "q": "What is a Buick Envision?",
+    "a": "The Buick Envision is a compact crossover SUV (sometimes called a compact SUV) that blends utility, comfort and premium features in a size tailored for everyday driving.",
+    "detail": "Envision offers a balance of versatility and efficiency without the bulk of a full-size SUV. The Envision also offers a premium experience with features like QuietTuning® with Active Noise Cancellation, a sweeping 30\" diagonal LCD screen display and advanced safety and driver assistance features."
+   },
+   {
+    "q": "Is the Buick Envision all-wheel drive?",
+    "a": "Yes — the Buick Envision comes standard with intelligent all-wheel drive, featuring an active twin clutch system to automatically manage traction.",
+    "detail": "Every 2026 Envision is delivered with standard all-wheel drive (AWD) on all trims. The intelligent all-wheel drive with active twin clutch monitors driving conditions and transfers power between wheels as needed to optimize grip and handling."
+   },
+   {
+    "q": "What engine is in the Buick Envision?",
+    "a": "The Buick Envision is powered by a 2.0L Turbo 4-cylinder engine which delivers 228 horsepower and 258 lb.-ft. of torque.",
+    "detail": "The 2.0L Turbo 4-cylinder engine is standard on all Envision trims, making it well suited to everyday driving demands as well as highway merging and passing. The Envision’s engine also features engine stop/start technology, which helps improve fuel efficiency in stop-and-go traffic."
+   },
+   {
+    "q": "How many seats does a Buick Envision have?",
+    "a": "The Buick Envision is a two-row SUV and seats five passengers comfortably.",
+    "detail": "The Envision is designed with a two-row seating configuration that comfortably seats up to five, and offers generous front- and rear-seat legroom. For buyers needing more passenger capacity, the Buick Enclave is a three-row SUV that seats up to seven."
+   },
+   {
+    "q": "What are the different models of the Buick Envision?",
+    "a": "The Buick Envision is offered in three trims: Preferred, Sport Touring and Avenir, each with its own character.",
+    "detail": "Preferred offers standard all-wheel drive, comfort and tech features like a 30-inch diagonal ultrawide display, adaptive headlights, heated mirrors and a 9-speaker Bose audio system. Sport Touring adds athletic flair with 20-inch Carbon Flash Metallic wheels, black exterior accents, a flat-bottom leather-wrapped steering wheel and sportier interior touches. Avenir includes premium quilted leather-appointed upholstery, ventilated and heated front seats, heated outboard rear seats, a panoramic moonroof, hands-free liftgate with LED logo projection and more upscale interior finishes."
+   },
+   {
+    "q": "What colors does the Buick Envision come in?",
+    "a": "Envision is available in multiple exterior colors. Preferred and Sport Touring offer Summit White, Smokey Amethyst Metallic, Brilliant Red, Ebony Twilight Metallic, Moonstone Gray Metallic, White Frost Tricoat and Iridescent White Tricoat. Avenir adds Calypso Blue Metallic to that palette.",
+    "detail": "For the 2026 Buick Envision, Preferred and Sport Touring color choices include Summit White, Quartz Blue Metallic, Brilliant Red, Ebony Twilight Metallic, Moonstone Gray Metallic and Iridescent White Tricoat (Quartz Blue Metallic, Brilliant Red, Moonstone Gray Metallic and Iridescent White Tricoat are premium paints at additional charge on Preferred and Sport Touring). Avenir includes all of the above except Summit White and adds one exclusive color: Midnight Opal Metallic."
+   },
+   {
+    "q": "Is the Buick Envision bigger than the Buick Encore GX?",
+    "a": "Yes, the Buick Envision is larger than the Buick Encore GX in length, width and height.",
+    "detail": "The 2025 Envision measures 182.7 inches long, 74.1 inches wide and 64.6 inches tall. By contrast, the 2025 Encore GX is about 171.2 inches long, 71.4 inches wide and 64.1 inches tall. Envision offers generous interior space, especially rear-seat legroom and cargo behind the rear seats."
+   },
+   {
+    "q": "What gas does the Buick Envision take?",
+    "a": "The Buick Envision uses regular unleaded gasoline with an octane rating of 87 or higher.",
+    "detail": "The engine is calibrated to run efficiently on 87-octane fuel, so you won’t gain significant performance or efficiency by routinely using higher-octane gas. For full details, such as any notes about ethanol blends, fuel additives or fueling tips, consult the “Fuel” section of the vehicle Owner’s Manual."
+   },
+   {
+    "q": "Can you put a trailer hitch on a Buick Envision?",
+    "a": "Yes, a trailer hitch can be installed on a Buick Envision, provided the hitch is properly rated and installed in accordance with the Owner’s Manual.",
+    "detail": "A hitch should be installed by an authorized installer or by a Buick/GM dealer, and adding one doesn’t change the vehicle’s factory towing limits — so it’s crucial to consult the towing section of the Owner’s Manual before towing. With a properly rated hitch you can attach a bike rack, small cargo carrier or platform, or tow lightweight trailers, including utility trailers, jet skis or compact campers."
+   }
+  ],
+  "similar": [
+   "envista",
+   "encore-gx",
+   "enclave"
+  ]
+ },
+ "enclave": {
+  "id": "enclave",
+  "name": "Enclave",
+  "year": 2027,
+  "segment": "Mid-size SUV",
+  "url": "/suvs/enclave",
+  "tagline": "The largest and most sophisticated SUV in the Buick lineup with 3 rows of seating.",
+  "startingPrice": "$46,900",
+  "startingPriceNum": 46900,
+  "seats": 7,
+  "mpg": "20/25 (FWD); 20/24 (available AWD)",
+  "mpgCity": 20,
+  "mpgHwy": 25,
+  "engine": "Turbocharged 2.5-liter four-cylinder (328 horsepower)",
+  "drivetrain": "FWD or available AWD",
+  "dimensions": {
+   "lengthIn": 207.6,
+   "widthIn": 79.6,
+   "heightIn": 70.9
+  },
+  "cargo": null,
+  "offer": "2026 Buick Enclave: 1.9% APR for well-qualified buyers when you finance through GM Financial.",
+  "trims": [
+   {
+    "name": "Preferred",
+    "startingPrice": "$46,900",
+    "descriptor": "An abundance of thoughtfully designed details.",
+    "highlights": [
+     "Leatherette seats",
+     "Heated front seats",
+     "Bose Premium 12-speaker audio system",
+     "Available one-touch flat-folding second-row seats",
+     "New 20\" alloy wheels with Medium Android Finish",
+     "Low, wide grille"
+    ],
+    "details": [
+     "Heated steering wheel",
+     "Wide, low mounted grille",
+     "Heated front seats"
+    ]
+   },
+   {
+    "name": "Sport Touring",
+    "startingPrice": "$50,400",
+    "descriptor": "A blend of athleticism and effortless refinement.",
+    "highlights": [
+     "Perforated leatherette seats",
+     "Heated front seats",
+     "Bose Premium 12-speaker audio system",
+     "Available one-touch flat-folding second-row seats",
+     "High-Gloss Black alloy wheels with machined finish",
+     "High-gloss black grille"
+    ],
+    "details": [
+     "Flat-bottom steering wheel",
+     "High-gloss black grille",
+     "Perforated heated front seats"
+    ]
+   },
+   {
+    "name": "Avenir",
+    "startingPrice": "$63,300",
+    "descriptor": "An elegant look that complements the advanced amenities inside.",
+    "highlights": [
+     "Quilted and perforated leather-appointed seats",
+     "Heated and ventilated massaging front seats",
+     "Bose Performance 16-speaker audio system",
+     "Heated second-row outboard seats",
+     "New 22\" alloy wheels with Avenir Pearl Nickel Finish",
+     "Exclusive Avenir grille with unique mesh pattern"
+    ],
+    "details": [
+     "Static and dynamic lighting",
+     "Exclusive Avenir grille",
+     "New Twilight Ash accents"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "title": "Gorgeous styling",
+    "description": "Beautifully designed details give Enclave a timeless yet undeniably modern presence."
+   },
+   {
+    "title": "Panoramic power sunroof",
+    "description": "Let the sunshine onto Enclave’s stunning interior with the available panoramic power sunroof."
+   },
+   {
+    "title": "A personalized cabin",
+    "description": "Customizable amenities and intricate touches are made to elevate your everyday moments."
+   },
+   {
+    "title": "Ultrawide 30\" diagonal screen — the largest in its class",
+    "description": "Seamlessly access Enclave’s 30\" diagonal screen with Google built-in featuring Google Gemini."
+   },
+   {
+    "title": "Flexible configurations",
+    "description": "The floating center console, flat-folding second-row seats and 60/40 split-folding third-row bench provide comfort and efficient storage space."
+   },
+   {
+    "title": "Multicolor lighting",
+    "description": "Static lighting and available dynamic lighting add a personal touch to your interior, letting you customize the cabin's glow to suit your mood."
+   },
+   {
+    "title": "Available Super Cruise® hands-free driver assistance technology",
+    "description": "On compatible roads, Super Cruise handles the steering, acceleration, and braking so you can let go of the steering wheel and enjoy the drive."
+   },
+   {
+    "title": "Bose Audio",
+    "description": "Enjoy clear, dynamic sound with the Bose Premium 12-speaker audio system or available Bose Performance 16-speaker system."
+   },
+   {
+    "title": "QuietTuning® with Active Noise Cancellation",
+    "description": "Helps reduce, block and absorb noise outside the vehicle for a more peaceful ride."
+   },
+   {
+    "title": "#1 Most Dependable Mass Market Brand",
+    "description": "Recognized by JD Power as the #1 most dependable among mass market brands for the second year in a row, Buick crafts vehicles you can trust. Our commitment to reliability means your Buick will continue to impress long after you drive it off the lot."
+   }
+  ],
+  "safety": {
+   "suite": null,
+   "items": [
+    "Front Pedestrian and Bicyclist Braking",
+    "Blind Zone Steering Assist",
+    "Intersection Automatic Emergency Braking",
+    "Rear Cross Traffic Braking",
+    "Side Bicyclist Alert",
+    "Available Super Cruise® hands-free driver assistance technology"
+   ]
+  },
+  "faqs": [
+   {
+    "q": "What is the Buick Enclave’s towing capacity?",
+    "a": "The 2027 Buick Enclave has a maximum towing capacity of 5,000 lbs. (2,268 kg).",
+    "detail": "The standard Trailering Package is equipped on every trim and drivetrain for the 2027 model year, so there’s no separate tow package to add or shop for. Smaller boats and personal watercraft on trailers, pop-up campers, teardrop trailers and light travel trailers are compatible with the 2027 Enclave’s trailering capabilities. The actual weight you can tow safely depends on factors like passenger load, cargo weight and trailer type, so always consult the vehicle’s Owner’s Manual."
+   },
+   {
+    "q": "How much horsepower does the Buick Enclave have?",
+    "a": "The 2027 Buick Enclave is powered by a turbocharged 2.5-liter four-cylinder engine that produces 328 horsepower. That output is consistent across all three trims and in both FWD and AWD configurations.",
+    "detail": "For a three-row family SUV, 328 horsepower delivers confident acceleration for everyday driving, highway merging and light towing. Paired with the available AWD system, it also gives the Enclave a composed, capable feel in varied road conditions."
+   },
+   {
+    "q": "What should I know about the Buick Enclave engine?",
+    "a": "The 2027 Buick Enclave is powered by a turbocharged 2.5-liter four-cylinder engine producing 328 horsepower — the same across all three trims and in both FWD and AWD configurations.",
+    "detail": "It’s a single powertrain choice for the entire lineup, so there’s no engine upgrade path to consider when comparing trims. The engine, equipped with the standard Trailering Package, supports a maximum towing capacity of 5,000 lbs. If you’re deciding between FWD and AWD, know that the drivetrain choice affects traction and all-weather capability but not the engine output itself."
+   },
+   {
+    "q": "Does the Buick Enclave have third-row seating?",
+    "a": "Yes, the 2027 Buick Enclave comes standard with third-row seating across all three trims — Preferred, Sport Touring and Avenir — making it a true three-row SUV regardless of which configuration you choose.",
+    "detail": "If you’re wondering how many seats are in a Buick Enclave, the answer is seven. This includes two front seats, two second-row captain’s chairs, and a three-person third-row bench. The second-row captain’s chairs offer easy access to the third row while providing extra elbow room for passengers."
+   },
+   {
+    "q": "Where is the Buick Enclave made?",
+    "a": "The 2027 Buick Enclave is assembled in the United States at the General Motors Lansing Delta Township Assembly Plant in Lansing, Michigan.",
+    "detail": "The Enclave is built from a mix of U.S. and globally sourced parts. Final assembly takes place domestically, in the United States of America."
+   },
+   {
+    "q": "What is the Buick Enclave MPG?",
+    "a": "Fuel economy on the 2027 Buick Enclave depends on which drivetrain you choose. FWD delivers an EPA-estimated 20 city/25 highway/22 combined MPG, while AWD comes in at 20 city/24 highway/21 combined MPG.",
+    "detail": "The difference is modest, so for most shoppers their decision can be based on traction needs and driving conditions: if you do a lot of highway driving, the FWD configuration can offer slightly better fuel efficiency, while the AWD Enclave may be a better choice if weather and road conditions are poor. Fuel economy estimate based on GM testing; official EPA estimates not yet available."
+   },
+   {
+    "q": "What are the Buick Enclave dimensions?",
+    "a": "The 2027 Buick Enclave measures approximately 204.5 inches long, 78.8 inches wide (excluding mirrors) and 69.9 inches tall, with a 120.9-inch wheelbase and roughly 7.5 inches of ground clearance.",
+    "detail": "The Enclave is a mid-size three-row SUV — sitting at a length of just over 17 feet. The 120.9-inch wheelbase is what helps create the interior space needed for a usable third row, and the 7.5 inches of ground clearance helps give the Enclave reasonable confidence on uneven surfaces."
+   }
+  ],
+  "similar": [
+   "envista",
+   "encore-gx",
+   "envision"
+  ]
+ }
+}

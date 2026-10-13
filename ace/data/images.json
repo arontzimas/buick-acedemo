@@ -1,0 +1,1871 @@
+{
+ "envista": {
+  "jelly": [
+   {
+    "src": "/ace/img/envista/jelly/preferred-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Brilliant Red Metallic",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "preferred-gas-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/preferred-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "preferred-gaz-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/preferred-gk9-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Ocean Blue Metallic",
+    "colorCode": "gk9",
+    "frame": "001",
+    "name": "preferred-gk9-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/preferred-gzb-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gzb",
+    "frame": "001",
+    "name": "preferred-gzb-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/preferred-gb0-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb0",
+    "frame": "001",
+    "name": "preferred-gb0-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/preferred-g98-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Copper Ice Metallic",
+    "colorCode": "g98",
+    "frame": "001",
+    "name": "preferred-g98-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-g42-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ceramic",
+    "colorCode": "g42",
+    "frame": "001",
+    "name": "sport-touring-g42-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Brilliant Red Metallic",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "sport-touring-gas-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "sport-touring-gaz-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-gk9-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ocean Blue Metallic",
+    "colorCode": "gk9",
+    "frame": "001",
+    "name": "sport-touring-gk9-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-gzb-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gzb",
+    "frame": "001",
+    "name": "sport-touring-gzb-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-gb0-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb0",
+    "frame": "001",
+    "name": "sport-touring-gb0-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/sport-touring-gkn-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Aquamarine Blue Metallic",
+    "colorCode": "gkn",
+    "frame": "001",
+    "name": "sport-touring-gkn-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/avenir-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Brilliant Red Metallic",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "avenir-gas-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/avenir-gp5-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "White Frost Tricoat",
+    "colorCode": "gp5",
+    "frame": "001",
+    "name": "avenir-gp5-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/avenir-gk9-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Ocean Blue Metallic",
+    "colorCode": "gk9",
+    "frame": "001",
+    "name": "avenir-gk9-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/avenir-gzb-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gzb",
+    "frame": "001",
+    "name": "avenir-gzb-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/avenir-gb0-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb0",
+    "frame": "001",
+    "name": "avenir-gb0-001"
+   },
+   {
+    "src": "/ace/img/envista/jelly/avenir-g98-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Copper Ice Metallic",
+    "colorCode": "g98",
+    "frame": "001",
+    "name": "avenir-g98-001"
+   }
+  ],
+  "specs": [
+   {
+    "src": "/ace/img/envista/specs/envista-avenir-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-avenir/02-images/2026-envista-avenir-spec-highlights-2500x1000.jpg",
+    "name": "envista-avenir-spec-highlights"
+   },
+   {
+    "src": "/ace/img/envista/specs/envista-preferred-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-preferred/03-images/2026-envista-preferred-spec-highlights-2500x1000.jpg",
+    "name": "envista-preferred-spec-highlights"
+   },
+   {
+    "src": "/ace/img/envista/specs/envista-st-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-st/01-images/2026-envista-st-spec-highlights-2500x1000.jpg",
+    "name": "envista-st-spec-highlights"
+   }
+  ],
+  "gallery": [
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-12.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-12-3200x1800-25BUEA95001.jpg",
+    "name": "envista-gallery-exterior-12"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-15.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-15-3200x1800-25BUEA95076.jpg",
+    "name": "envista-gallery-exterior-15"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-16.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-16-3200x1800-25BUEA95077.jpg",
+    "name": "envista-gallery-exterior-16"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-17.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-17-3200x1800-25BUEA95075.jpg",
+    "name": "envista-gallery-exterior-17"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-18.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-18-3200x1800-25BUEA95003.jpg",
+    "name": "envista-gallery-exterior-18"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-7.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-7-3200x1800-25BUEA95002.jpg",
+    "name": "envista-gallery-exterior-7"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-8.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-8-3200x1800-24BUEA_B_F23_1_FINAL.jpg",
+    "name": "envista-gallery-exterior-8"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-exterior-9.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-exterior-9-3200x1800-25BUEA95082.jpg",
+    "name": "envista-gallery-exterior-9"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-interior-12.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-interior-12-3200x1800-25BUEA95081.jpg",
+    "name": "envista-gallery-interior-12"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-interior-13.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-interior-13-3200x1800-25BUEA00015.jpg",
+    "name": "envista-gallery-interior-13"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-interior-14.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-interior-14-3200x1800-25BUEA00011.jpg",
+    "name": "envista-gallery-interior-14"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-interior-19.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-interior-19-3200x1800-25BUEA95079.jpg",
+    "name": "envista-gallery-interior-19"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-interior-8.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/01-images/2026-envista-gallery-interior-8-3200x1800-25BUEA00080.jpg",
+    "name": "envista-gallery-interior-8"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/02-images/2026-envista-mov-gallery-3200x1800-sx007-FINAL.jpg",
+    "name": "envista-gallery"
+   },
+   {
+    "src": "/ace/img/envista/gallery/envista-gallery-final.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/gallery/02-images/2026-envista-mov-gallery-3200x1800-sx008-FINAL.jpg",
+    "name": "envista-gallery-final"
+   }
+  ],
+  "safety": [
+   {
+    "src": "/ace/img/envista/safety/envista-preferred-safety-intellibeam.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-preferred/02-images/2026-envista-preferred-safety-intellibeam-2400x1800-25BUEA00070.jpg",
+    "name": "envista-preferred-safety-intellibeam"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-st-safety-hero.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-st/01-images/2026-envista-st-safety-hero-2400x1800-25BUEA95001.jpg",
+    "name": "envista-st-safety-hero"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-st-safety-intellibeam.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-st/01-images/2026-envista-st-safety-intellibeam-2400x1800-25BUEA95082.jpg",
+    "name": "envista-st-safety-intellibeam"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-st-safety-hero-25buea95001.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-st/02-images/2026-envista-st-safety-hero-2400x1800-25BUEA95001.jpg",
+    "name": "envista-st-safety-hero-25buea95001"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-automatic-emergency-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2025-envista-safety-automatic-emergency-braking-2400x1800-24BUEA_Safety_Videos_Clean.jpg",
+    "name": "envista-safety-automatic-emergency-braking"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-following-distance-indicator.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2025-envista-safety-following-distance-indicator-2400x1800-24BUEA_Safety_Videos_Clean.jpg",
+    "name": "envista-safety-following-distance-indicator"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-forward-collision-alert.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2025-envista-safety-forward-collision-alert-2400x1800-24BUEA_Safety_Videos_Clean.jpg",
+    "name": "envista-safety-forward-collision-alert"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-front-pedestrian-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2025-envista-safety-front-pedestrian-braking-2400x1800-24BUEA_Safety_Videos_Clean.jpg",
+    "name": "envista-safety-front-pedestrian-braking"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-hero.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2025-envista-safety-hero-2400x1800-25BUEA_Now_is_Exceptional_Envista.jpg",
+    "name": "envista-safety-hero"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-lane-keep-assist.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2025-envista-safety-lane-keep-assist-2400x1800-24BUEA_Safety_Videos_Clean.jpg",
+    "name": "envista-safety-lane-keep-assist"
+   },
+   {
+    "src": "/ace/img/envista/safety/envista-safety-intellibeam.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-safety-intellibeam-2400x1800-25BUEA00055.jpg",
+    "name": "envista-safety-intellibeam"
+   }
+  ],
+  "features": [
+   {
+    "src": "/ace/img/envista/features/envista-design-check-shaped-headlights.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-design-check-shaped-headlights-l-2400x1800-25BUEA95002.jpg",
+    "name": "envista-design-check-shaped-headlights"
+   },
+   {
+    "src": "/ace/img/envista/features/envista-design-infotainment.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-design-infotainment-l-2400x1800-25BUEA95079.jpg",
+    "name": "envista-design-infotainment"
+   }
+  ],
+  "trims": [
+   {
+    "src": "/ace/img/envista/trims/envista-trim-walk-sport-touring-ss.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista-st/02-images/2026-envista-mov-trim-walk-sport-touring-ss-l-1600x900-sx007-FINAL.jpg",
+    "name": "envista-trim-walk-sport-touring-ss"
+   },
+   {
+    "src": "/ace/img/envista/trims/envista-avenir-trim-walk.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-avenir-trim-walk-1600x900-24BUEA_B_F23_1.jpg",
+    "name": "envista-avenir-trim-walk"
+   },
+   {
+    "src": "/ace/img/envista/trims/envista-trim-walk-avenir-premium-leather-seats.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-trim-walk-avenir-premium-leather-seats-l-1600x900-26BUEA100767.jpg",
+    "name": "envista-trim-walk-avenir-premium-leather-seats"
+   },
+   {
+    "src": "/ace/img/envista/trims/envista-trim-walk-preferred-flatbottom-steering-wheel.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-trim-walk-preferred-flatbottom-steering-wheel-l-1600x900-26BUEA100762.jpg",
+    "name": "envista-trim-walk-preferred-flatbottom-steering-wheel"
+   },
+   {
+    "src": "/ace/img/envista/trims/envista-trim-walk-sport-touring-grille.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-trim-walk-sport-touring-grille-l-1600x900-25BUEA95082.jpg",
+    "name": "envista-trim-walk-sport-touring-grille"
+   },
+   {
+    "src": "/ace/img/envista/trims/envista-trim-walk-sport-touring-leatherette-seats.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envista/overview/02-images/2026-envista-mov-trim-walk-sport-touring-leatherette-seats-l-1600x900-25BUEA95081.jpg",
+    "name": "envista-trim-walk-sport-touring-leatherette-seats"
+   }
+  ],
+  "hero": [
+   {
+    "src": "/ace/img/envista/hero/homepage-buick-envista-st.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/index-subcontent/homepage-redesign/02-images/homepage-buick-envista-st-1600x900-v4.jpg",
+    "name": "homepage-buick-envista-st"
+   }
+  ]
+ },
+ "encore-gx": {
+  "jelly": [
+   {
+    "src": "/ace/img/encore-gx/jelly/preferred-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Brilliant Red",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "preferred-gas-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/preferred-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "preferred-gaz-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/preferred-gk9-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Ocean Blue Metallic",
+    "colorCode": "gk9",
+    "frame": "001",
+    "name": "preferred-gk9-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/preferred-gzb-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gzb",
+    "frame": "001",
+    "name": "preferred-gzb-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/preferred-gb0-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb0",
+    "frame": "001",
+    "name": "preferred-gb0-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/preferred-g98-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Copper Ice Metallic",
+    "colorCode": "g98",
+    "frame": "001",
+    "name": "preferred-g98-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-g42-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ceramic",
+    "colorCode": "g42",
+    "frame": "001",
+    "name": "sport-touring-g42-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Brilliant Red",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "sport-touring-gas-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "sport-touring-gaz-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-gk9-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ocean Blue Metallic",
+    "colorCode": "gk9",
+    "frame": "001",
+    "name": "sport-touring-gk9-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-gzb-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gzb",
+    "frame": "001",
+    "name": "sport-touring-gzb-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-gb0-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb0",
+    "frame": "001",
+    "name": "sport-touring-gb0-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/sport-touring-gkn-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Aquamarine Blue Metallic",
+    "colorCode": "gkn",
+    "frame": "001",
+    "name": "sport-touring-gkn-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/avenir-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Brilliant Red",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "avenir-gas-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/avenir-gp5-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "White Frost Tricoat",
+    "colorCode": "gp5",
+    "frame": "001",
+    "name": "avenir-gp5-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/avenir-gk9-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Ocean Blue Metallic",
+    "colorCode": "gk9",
+    "frame": "001",
+    "name": "avenir-gk9-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/avenir-gzb-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gzb",
+    "frame": "001",
+    "name": "avenir-gzb-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/avenir-gb0-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb0",
+    "frame": "001",
+    "name": "avenir-gb0-001"
+   },
+   {
+    "src": "/ace/img/encore-gx/jelly/avenir-g98-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Copper Ice Metallic",
+    "colorCode": "g98",
+    "frame": "001",
+    "name": "avenir-g98-001"
+   }
+  ],
+  "specs": [
+   {
+    "src": "/ace/img/encore-gx/specs/encore-gx-avenir-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-avenir/overview/03-images/2026-encore-gx-avenir-spec-highlights-l-2500x1000.jpg",
+    "name": "encore-gx-avenir-spec-highlights"
+   },
+   {
+    "src": "/ace/img/encore-gx/specs/encore-gx-preferred-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/03-images/2026-encore-gx-preferred-spec-highlights-l-2500x1000.jpg",
+    "name": "encore-gx-preferred-spec-highlights"
+   },
+   {
+    "src": "/ace/img/encore-gx/specs/encore-gx-st-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-st/overview/02-images/2026-encore-gx-st-spec-highlights-l-2500x1000.jpg",
+    "name": "encore-gx-st-spec-highlights"
+   }
+  ],
+  "gallery": [
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-12.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-12-l-3200x1800-posterframe.jpg",
+    "name": "encore-gx-gallery-exterior-12"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-13.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-13-l-3200x1800-ST_exterior_03.jpg",
+    "name": "encore-gx-gallery-exterior-13"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-14.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-14-l-3200x1800-ST_exterior_02.jpg",
+    "name": "encore-gx-gallery-exterior-14"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-15.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-15-l-3200x1800-25BUGX00125.jpg",
+    "name": "encore-gx-gallery-exterior-15"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-2.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-2-l-3200x1800-25BUGX95016.jpg",
+    "name": "encore-gx-gallery-exterior-2"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-5.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-5-l-3200x1800-25BUGX95027.jpg",
+    "name": "encore-gx-gallery-exterior-5"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-6.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-exterior-6-l-3200x1800-25BUGX95015.jpg",
+    "name": "encore-gx-gallery-exterior-6"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-interior-2.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-interior-2-l-3200x1800-25BUGX95022.jpg",
+    "name": "encore-gx-gallery-interior-2"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-interior-3.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-interior-3-l-3200x1800-25BUGX95025.jpg",
+    "name": "encore-gx-gallery-interior-3"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-interior-5.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-interior-5-l-3200x1800-25BUGX95024.jpg",
+    "name": "encore-gx-gallery-interior-5"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-interior-6.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-interior-6-l-3200x1800-25BUGX95021-v2.jpg",
+    "name": "encore-gx-gallery-interior-6"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-interior-7.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-interior-7-l-3200x1800-25BUGX95019.jpg",
+    "name": "encore-gx-gallery-interior-7"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-interior-ss.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/01-images/2026-encore-gx-gallery-interior-ss-l-3200x1800-sx009.jpg",
+    "name": "encore-gx-gallery-interior-ss"
+   },
+   {
+    "src": "/ace/img/encore-gx/gallery/encore-gx-gallery-exterior-ss.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/gallery/02-images/2026-encore-gx-gallery-exterior-ss-l-3200x1800-sx015.jpg",
+    "name": "encore-gx-gallery-exterior-ss"
+   }
+  ],
+  "safety": [
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-automatic-emergency-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-mov-safety-automatic-emergency-braking-posterframe-l-2400x1800-BUI-2021-0296_Edits_AutEmBrk-v3.jpg",
+    "name": "encore-gx-safety-automatic-emergency-braking"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-following-distance-indicator.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-mov-safety-following-distance-indicator-posterframe-l-2400x1800-BUI-2021-0296_Edits_DistInd-v2.jpg",
+    "name": "encore-gx-safety-following-distance-indicator"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-forward-collision-alert.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-mov-safety-forward-collision-alert-posterframe-l-2400x1800-BUI-2021-0296_Edits_AutEmBrk-v2.jpg",
+    "name": "encore-gx-safety-forward-collision-alert"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-front-pedestrian-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-mov-safety-front-pedestrian-braking-posterframe-l-2400x1800-BUI-2021-0296_Edits_FrntPed-v2.jpg",
+    "name": "encore-gx-safety-front-pedestrian-braking"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-intellibeam.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-mov-safety-intellibeam-posterframe-l-2400x1800-25BUGX95018-v2.jpg",
+    "name": "encore-gx-safety-intellibeam"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-lane-keep-assist.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-mov-safety-lane-keep-assist-posterframe-l-2400x1800-BUI-2021-0296_Edits_LaneKeep-v2.jpg",
+    "name": "encore-gx-safety-lane-keep-assist"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-preferred-safety-hero.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-preferred-safety-hero-l-2400x1800-Preferred_exterior_01-v2.jpg",
+    "name": "encore-gx-preferred-safety-hero"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-st-safety-hero.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-st/overview/01-images/2026-encore-gx-st-safety-hero-l-2400x1800-25BUGX00033-v2.jpg",
+    "name": "encore-gx-st-safety-hero"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-st-safety-intellibeam.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-st/overview/01-images/2026-encore-gx-st-safety-intellibeam-posterframe-l-2400x1800-ST_exterior_03.jpg",
+    "name": "encore-gx-st-safety-intellibeam"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-automatic-emergency-braking-v3.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-automatic-emergency-braking-posterframe-l-2400x1800-BUI-2021-0296_Edits_AutEmBrk-v3.jpg",
+    "name": "encore-gx-safety-automatic-emergency-braking-v3"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-following-distance-indicator-v2.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-following-distance-indicator-posterframe-l-2400x1800-BUI-2021-0296_Edits_DistInd-v2.jpg",
+    "name": "encore-gx-safety-following-distance-indicator-v2"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-forward-collision-alert-v2.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-forward-collision-alert-posterframe-l-2400x1800-BUI-2021-0296_Edits_AutEmBrk-v2.jpg",
+    "name": "encore-gx-safety-forward-collision-alert-v2"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-front-pedestrian-braking-v2.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-front-pedestrian-braking-posterframe-l-2400x1800-BUI-2021-0296_Edits_FrntPed-v2.jpg",
+    "name": "encore-gx-safety-front-pedestrian-braking-v2"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-hero.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-hero-l-2400x1800-25BUGX95021-v2.jpg",
+    "name": "encore-gx-safety-hero"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-intellibeam-v2.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-intellibeam-posterframe-l-2400x1800-25BUGX95018-v2.jpg",
+    "name": "encore-gx-safety-intellibeam-v2"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-lane-keep-assist-v2.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/02-images/2026-encore-gx-mov-safety-lane-keep-assist-posterframe-l-2400x1800-BUI-2021-0296_Edits_LaneKeep-v2.jpg",
+    "name": "encore-gx-safety-lane-keep-assist-v2"
+   },
+   {
+    "src": "/ace/img/encore-gx/safety/encore-gx-safety-hero-v2.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-safety-hero-l-2400x1800-25BUGX95021-v2.jpg",
+    "name": "encore-gx-safety-hero-v2"
+   }
+  ],
+  "features": [
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-avenir-design-folding-passanger-seats.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-avenir/overview/02-images/2026-encore-gx-avenir-design-folding-passanger-seats-l-2400x1800-25BUGX95023.jpg",
+    "name": "encore-gx-avenir-design-folding-passanger-seats"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-avenir-design-grill.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-avenir/overview/02-images/2026-encore-gx-avenir-design-grill-l-2400x1800-Now_is_Exceptional_EncoreGX_Running_Footage_2025_Buick_US_60_16X9_EN_LEGAL.jpg",
+    "name": "encore-gx-avenir-design-grill"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-avenir-design-seating.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-avenir/overview/03-images/2026-encore-gx-avenir-design-seating-l-2400x1800-25BUGX95025.jpg",
+    "name": "encore-gx-avenir-design-seating"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-preferred-design-heated-front-seats.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-preferred-design-heated-front-seats-l-2400x1800-Preferred_interior_03.jpg",
+    "name": "encore-gx-preferred-design-heated-front-seats"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-preferred-design-power-liftgate.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-preferred-design-power-liftgate-l-2400x1800-25BUGX95026.jpg",
+    "name": "encore-gx-preferred-design-power-liftgate"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-preferred-design-rear-split-seating.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-preferred/overview/02-images/2026-encore-gx-preferred-design-rear-split-seating-l-2400x1800-25BUGX95023.jpg",
+    "name": "encore-gx-preferred-design-rear-split-seating"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-st-design-black-grille.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-st/overview/01-images/2026-encore-gx-st-design-black-grille-l-2400x1800-ST_exterior_03.jpg",
+    "name": "encore-gx-st-design-black-grille"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-st-design-studioseries.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-st/overview/02-images/2026-encore-gx-st-design-studioseries-l-2400x1800-sx014.jpg",
+    "name": "encore-gx-st-design-studioseries"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-st-design-leatherette-seats.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx-st/overview/moved/2026-encore-gx-st-design-leatherette-seats-l-2400x1800-25BUGX00035.jpg",
+    "name": "encore-gx-st-design-leatherette-seats"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-design-infotainment-display.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-design-infotainment-display-l-2400x1800-25BUGX95026-v3.jpg",
+    "name": "encore-gx-design-infotainment-display"
+   },
+   {
+    "src": "/ace/img/encore-gx/features/encore-gx-design-power-liftgate.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-design-power-liftgate-l-2400x1800-24BUGX00790-v2.jpg",
+    "name": "encore-gx-design-power-liftgate"
+   }
+  ],
+  "trims": [
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-avenir-19in-wheels.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-avenir-19in-wheels-l-1920x1080-25BUGX95016-v3.jpg",
+    "name": "encore-gx-trim-walk-avenir-19in-wheels"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-avenir-grille-front-fascia.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-avenir-grille-front-fascia-l-1920x1080-25BUGX95014-v4.jpg",
+    "name": "encore-gx-trim-walk-avenir-grille-front-fascia"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-avenir-leather-seats-with-quilted-stitching.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-avenir-leather-seats-with-quilted-stitching-l-1920x1080-25BUGX95019-v2.jpg",
+    "name": "encore-gx-trim-walk-avenir-leather-seats-with-quilted-stitching"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-preferred-18in-wheels.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-preferred-18in-wheels-l-1920x1080-Preferred-exterior-02-v2.jpg",
+    "name": "encore-gx-trim-walk-preferred-18in-wheels"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-preferred-infotainment-display.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-preferred-infotainment-display-l-1920x1080-Preferred-interior-02-v3.jpg",
+    "name": "encore-gx-trim-walk-preferred-infotainment-display"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-preferred-leatherette-seating.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-preferred-leatherette-seating-l-1920x1080-25BUGX00100-v3.jpg",
+    "name": "encore-gx-trim-walk-preferred-leatherette-seating"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-st-18in-black-wheels.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-st-18in-black-wheels-l-1920x1080-ST-exterior-02-v2.jpg",
+    "name": "encore-gx-trim-walk-st-18in-black-wheels"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-st-santorini-blue-seats.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/03-images/2026-encore-gx-mov-trim-walk-st-santorini-blue-seats-l-1920x1080-25BUGX00086-v3.jpg",
+    "name": "encore-gx-trim-walk-st-santorini-blue-seats"
+   },
+   {
+    "src": "/ace/img/encore-gx/trims/encore-gx-trim-walk-st-ss.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/encore-gx/overview/04-images/2026-encore-gx-mov-trim-walk-st-ss-l-1920x1080-sx015.jpg",
+    "name": "encore-gx-trim-walk-st-ss"
+   }
+  ],
+  "hero": [
+   {
+    "src": "/ace/img/encore-gx/hero/homepage-buick-encore-gx-avenir.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/index-subcontent/homepage-redesign/02-images/homepage-buick-encore-gx-avenir-1600x900-v3.jpg",
+    "name": "homepage-buick-encore-gx-avenir"
+   }
+  ]
+ },
+ "envision": {
+  "jelly": [
+   {
+    "src": "/ace/img/envision/jelly/preferred-gkt-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Quartz Blue Metallic",
+    "colorCode": "gkt",
+    "frame": "001",
+    "name": "preferred-gkt-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/preferred-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Brilliant Red",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "preferred-gas-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/preferred-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "preferred-gaz-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/preferred-gb8-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb8",
+    "frame": "001",
+    "name": "preferred-gb8-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/preferred-gep-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Iridescent White Tricoat",
+    "colorCode": "gep",
+    "frame": "001",
+    "name": "preferred-gep-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/preferred-gza-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gza",
+    "frame": "001",
+    "name": "preferred-gza-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/sport-touring-gkt-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Quartz Blue Metallic",
+    "colorCode": "gkt",
+    "frame": "001",
+    "name": "sport-touring-gkt-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/sport-touring-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Brilliant Red",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "sport-touring-gas-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/sport-touring-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "sport-touring-gaz-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/sport-touring-gb8-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb8",
+    "frame": "001",
+    "name": "sport-touring-gb8-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/sport-touring-gep-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Iridescent White Tricoat",
+    "colorCode": "gep",
+    "frame": "001",
+    "name": "sport-touring-gep-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/sport-touring-gza-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gza",
+    "frame": "001",
+    "name": "sport-touring-gza-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/avenir-gkt-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Quartz Blue Metallic",
+    "colorCode": "gkt",
+    "frame": "001",
+    "name": "avenir-gkt-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/avenir-gas-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Brilliant Red",
+    "colorCode": "gas",
+    "frame": "001",
+    "name": "avenir-gas-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/avenir-gb8-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb8",
+    "frame": "001",
+    "name": "avenir-gb8-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/avenir-gep-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Iridescent White Tricoat",
+    "colorCode": "gep",
+    "frame": "001",
+    "name": "avenir-gep-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/avenir-gpd-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Midnight Opal",
+    "colorCode": "gpd",
+    "frame": "001",
+    "name": "avenir-gpd-001"
+   },
+   {
+    "src": "/ace/img/envision/jelly/avenir-gza-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gza",
+    "frame": "001",
+    "name": "avenir-gza-001"
+   }
+  ],
+  "specs": [
+   {
+    "src": "/ace/img/envision/specs/envision-avenir-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision-avenir/01-images/new/2026-envision-avenir-spec-highlights-2500x1000-v2.jpg",
+    "name": "envision-avenir-spec-highlights"
+   },
+   {
+    "src": "/ace/img/envision/specs/envision-preferred-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision-preferred/02-images/2026-envision-preferred-spec-highlights-2500x1000-v2.jpg",
+    "name": "envision-preferred-spec-highlights"
+   },
+   {
+    "src": "/ace/img/envision/specs/envision-st-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision-sport-touring/03-images/2026-envision-st-spec-highlights-2500x1000-v2.jpg",
+    "name": "envision-st-spec-highlights"
+   }
+  ],
+  "gallery": [
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95005.jpg",
+    "name": "envision-gallery-exterior"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95006.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95006.jpg",
+    "name": "envision-gallery-exterior-25buev95006"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95007.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95007.jpg",
+    "name": "envision-gallery-exterior-25buev95007"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95058.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95058.jpg",
+    "name": "envision-gallery-exterior-25buev95058"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95059.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95059.jpg",
+    "name": "envision-gallery-exterior-25buev95059"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95060.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95060.jpg",
+    "name": "envision-gallery-exterior-25buev95060"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95061.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95061.jpg",
+    "name": "envision-gallery-exterior-25buev95061"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-exterior-25buev95071.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-exterior-3200x1800-25BUEV95071.jpg",
+    "name": "envision-gallery-exterior-25buev95071"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-interior.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-interior-3200x1800-25BUEV95008.jpg",
+    "name": "envision-gallery-interior"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-interior-25buev95010.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-interior-3200x1800-25BUEV95010.jpg",
+    "name": "envision-gallery-interior-25buev95010"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-interior-25buev95062.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-interior-3200x1800-25BUEV95062.jpg",
+    "name": "envision-gallery-interior-25buev95062"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-interior-2.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-interior-3200x1800-25BUEV95067-2.jpg",
+    "name": "envision-gallery-interior-2"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-interior-25buev95069.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-interior-3200x1800-25BUEV95069.jpg",
+    "name": "envision-gallery-interior-25buev95069"
+   },
+   {
+    "src": "/ace/img/envision/gallery/envision-gallery-interior-25buev95070.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/gallery/01-images/2026-envision-gallery-interior-3200x1800-25BUEV95070.jpg",
+    "name": "envision-gallery-interior-25buev95070"
+   }
+  ],
+  "safety": [
+   {
+    "src": "/ace/img/envision/safety/envision-safety-Front-Ped-Braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision-sport-touring/01-images/2026-envision-mov-safety-posterframe-Front-Ped-Braking-2400x1800-BUI-2021-0296_Edits_FPBicycle-v2.jpg",
+    "name": "envision-safety-Front-Ped-Braking"
+   },
+   {
+    "src": "/ace/img/envision/safety/envision-safety-AEB.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-safety-posterframe-AEB-2400x1800-BUI-2021-0296_Edits_IntBrk.jpg",
+    "name": "envision-safety-AEB"
+   },
+   {
+    "src": "/ace/img/envision/safety/envision-safety-BZSA.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-safety-posterframe-BZSA-2400x1800-BUI-2021-0296_Edits_BlindZone.jpg",
+    "name": "envision-safety-BZSA"
+   },
+   {
+    "src": "/ace/img/envision/safety/envision-safety-Rear-Cross-Traffic.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-safety-posterframe-Rear-Cross-Traffic-2400x1800-BUI-2021-0296_Edits_RearXBrk.jpg",
+    "name": "envision-safety-Rear-Cross-Traffic"
+   },
+   {
+    "src": "/ace/img/envision/safety/envision-safety-Side-Bike-Alert.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-safety-posterframe-Side-Bike-Alert-2400x1800-BUI-2021-0296_Edits_SideBike.jpg",
+    "name": "envision-safety-Side-Bike-Alert"
+   }
+  ],
+  "trims": [
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-avenir-perforated-seats.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-trim-walk-avenir-perforated-seats-1600x900-24BUEV00087.jpg",
+    "name": "envision-trim-walk-avenir-perforated-seats"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-preferred-wheels.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-trim-walk-preferred-wheels-1600x900-24BUEV00116.jpg",
+    "name": "envision-trim-walk-preferred-wheels"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-st-grille.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-trim-walk-st-grille-1600x900-25BUEV95060-v2.jpg",
+    "name": "envision-trim-walk-st-grille"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-st-perforated-front-seats.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/01-images/2026-envision-mov-trim-walk-st-perforated-front-seats-1600x900-25BUEV95062.jpg",
+    "name": "envision-trim-walk-st-perforated-front-seats"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-avenir-grille.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/02-images/2026-envision-mov-trim-walk-avenir-grille-1600x900-24BUEV00032.jpg",
+    "name": "envision-trim-walk-avenir-grille"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-avenir-pearl-nickel-wheels.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/02-images/2026-envision-mov-trim-walk-avenir-pearl-nickel-wheels-1600x900-24BUEV00007.jpg",
+    "name": "envision-trim-walk-avenir-pearl-nickel-wheels"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-preferred-grille.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/02-images/2026-envision-mov-trim-walk-preferred-grille-1600x900-26BUEV100656.jpg",
+    "name": "envision-trim-walk-preferred-grille"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-preferred-seating.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/02-images/2026-envision-mov-trim-walk-preferred-seating-1600x900-26BUEV100816.jpg",
+    "name": "envision-trim-walk-preferred-seating"
+   },
+   {
+    "src": "/ace/img/envision/trims/envision-trim-walk-st-carbon-flash-wheels.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2026/crossovers-suvs/envision/overview/02-images/2026-envision-mov-trim-walk-st-carbon-flash-wheels-1600x900-25BUEV95007.jpg",
+    "name": "envision-trim-walk-st-carbon-flash-wheels"
+   }
+  ],
+  "hero": [
+   {
+    "src": "/ace/img/envision/hero/homepage-buick-envision-st.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/index-subcontent/homepage-redesign/02-images/homepage-buick-envision-st-1600x900-v3.jpg",
+    "name": "homepage-buick-envision-st"
+   }
+  ]
+ },
+ "enclave": {
+  "jelly": [
+   {
+    "src": "/ace/img/enclave/jelly/preferred-g4j-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Iridescent White Tricoat",
+    "colorCode": "g4j",
+    "frame": "001",
+    "name": "preferred-g4j-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/preferred-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "preferred-gaz-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/preferred-gb8-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb8",
+    "frame": "001",
+    "name": "preferred-gb8-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/preferred-gnt-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Cherry Red Tintcoat",
+    "colorCode": "gnt",
+    "frame": "001",
+    "name": "preferred-gnt-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/preferred-gxd-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gxd",
+    "frame": "001",
+    "name": "preferred-gxd-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/preferred-gtm-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Preferred",
+    "color": "Emerald Green Metallic",
+    "colorCode": "gtm",
+    "frame": "001",
+    "name": "preferred-gtm-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/sport-touring-g4j-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Iridescent White Tricoat",
+    "colorCode": "g4j",
+    "frame": "001",
+    "name": "sport-touring-g4j-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/sport-touring-gaz-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Summit White",
+    "colorCode": "gaz",
+    "frame": "001",
+    "name": "sport-touring-gaz-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/sport-touring-gb8-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb8",
+    "frame": "001",
+    "name": "sport-touring-gb8-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/sport-touring-gfr-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Stone Metallic",
+    "colorCode": "gfr",
+    "frame": "001",
+    "name": "sport-touring-gfr-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/sport-touring-gnt-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Cherry Red Tintcoat",
+    "colorCode": "gnt",
+    "frame": "001",
+    "name": "sport-touring-gnt-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/sport-touring-gxd-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Sport Touring",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gxd",
+    "frame": "001",
+    "name": "sport-touring-gxd-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/avenir-g4j-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Iridescent White Tricoat",
+    "colorCode": "g4j",
+    "frame": "001",
+    "name": "avenir-g4j-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/avenir-gb8-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Ebony Twilight Metallic",
+    "colorCode": "gb8",
+    "frame": "001",
+    "name": "avenir-gb8-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/avenir-gnt-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Cherry Red Tintcoat",
+    "colorCode": "gnt",
+    "frame": "001",
+    "name": "avenir-gnt-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/avenir-gxd-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Moonstone Gray Metallic",
+    "colorCode": "gxd",
+    "frame": "001",
+    "name": "avenir-gxd-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/avenir-g46-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Blue Onyx",
+    "colorCode": "g46",
+    "frame": "001",
+    "name": "avenir-g46-001"
+   },
+   {
+    "src": "/ace/img/enclave/jelly/avenir-gtm-001.webp",
+    "w": 1500,
+    "h": 750,
+    "trim": "Avenir",
+    "color": "Emerald Green Metallic",
+    "colorCode": "gtm",
+    "frame": "001",
+    "name": "avenir-gtm-001"
+   }
+  ],
+  "specs": [
+   {
+    "src": "/ace/img/enclave/specs/enclave-avenir-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/avenir/02-images/2027-enclave-avenir-spec-highlights-2500x1000-v2.jpg",
+    "name": "enclave-avenir-spec-highlights"
+   },
+   {
+    "src": "/ace/img/enclave/specs/enclave-preferred-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/preferred/02-images/2027-enclave-preferred-spec-highlights-2500x1000-v2.jpg",
+    "name": "enclave-preferred-spec-highlights"
+   },
+   {
+    "src": "/ace/img/enclave/specs/enclave-st-spec-highlights.jpg",
+    "w": 2000,
+    "h": 800,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/sport-touring/01-images/2027-enclave-st-spec-highlights-2500x1000-v2.jpg",
+    "name": "enclave-st-spec-highlights"
+   }
+  ],
+  "gallery": [
+   {
+    "src": "/ace/img/enclave/gallery/enclave-gallery.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-gallery-3200x1800-27BUENCL100118.jpg",
+    "name": "enclave-gallery"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-gallery-27buencl100122.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-gallery-3200x1800-27BUENCL100122.jpg",
+    "name": "enclave-gallery-27buencl100122"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-25BUEN00056.jpg",
+    "name": "enclave-landing-page-gallery"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-25buen00068.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-25BUEN00068.jpg",
+    "name": "enclave-landing-page-gallery-25buen00068"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-25buen00074.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-25BUEN00074.jpg",
+    "name": "enclave-landing-page-gallery-25buen00074"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-25buen00077.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-25BUEN00077.jpg",
+    "name": "enclave-landing-page-gallery-25buen00077"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-26buencl140292.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-26BUENCL140292.jpg",
+    "name": "enclave-landing-page-gallery-26buencl140292"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-26buencl140296.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-26BUENCL140296.jpg",
+    "name": "enclave-landing-page-gallery-26buencl140296"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-26buencl140300.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-26BUENCL140300.jpg",
+    "name": "enclave-landing-page-gallery-26buencl140300"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-26buencl140349.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-26BUENCL140349.jpg",
+    "name": "enclave-landing-page-gallery-26buencl140349"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-26buen_b_s26_15.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-26BUEN_B_S26_15.jpg",
+    "name": "enclave-landing-page-gallery-26buen_b_s26_15"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-26buen_int_suv_studio_01_v3_4ld56_1sm_h7d.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/01-images/27-enclave-mov-landing-page-gallery-3200x1800-26BUEN_Int_SUV_Studio_01_v3_4LD56_1SM_H7D.jpg",
+    "name": "enclave-landing-page-gallery-26buen_int_suv_studio_01_v3_4ld56_1sm_h7d"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-27buencl100119.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/02-images/27-enclave-mov-landing-page-gallery-3200x1800-27BUENCL100119.jpg",
+    "name": "enclave-landing-page-gallery-27buencl100119"
+   },
+   {
+    "src": "/ace/img/enclave/gallery/enclave-landing-page-gallery-27buencl100123.jpg",
+    "w": 2000,
+    "h": 1125,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/gallery/02-images/27-enclave-mov-landing-page-gallery-3200x1800-27BUENCL100123.jpg",
+    "name": "enclave-landing-page-gallery-27buencl100123"
+   }
+  ],
+  "safety": [
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-blind-zone-steering-assist.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/avenir/01-images/my26-enclave-mov-safety-blind-zone-steering-assist-2400x1800-BUI-2021-0296_Edits_BlindZone.jpg",
+    "name": "enclave-safety-blind-zone-steering-assist"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-front-pedestrian-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/avenir/01-images/my26-enclave-mov-safety-front-pedestrian-braking-2400x1800-BUI-2021-0296_Edits_FPBicycle.jpg",
+    "name": "enclave-safety-front-pedestrian-braking"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-intersection-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/avenir/01-images/my26-enclave-mov-safety-intersection-braking-2400x1800-BUI-2021-0296_Edits_IntBrk.jpg",
+    "name": "enclave-safety-intersection-braking"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-rear-cross-traffic-braking.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/avenir/01-images/my26-enclave-mov-safety-rear-cross-traffic-braking-2400x1800-BUI-2021-0296_Edits_RearXBrk.jpg",
+    "name": "enclave-safety-rear-cross-traffic-braking"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-blind-zone-steering-assist-0296_edits_blindzone.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/preferred/01-images/safety-and-poster-frames/my26-enclave-mov-safety-blind-zone-steering-assist-2400x1800-BUI-2021-0296_Edits_BlindZone.jpg",
+    "name": "enclave-safety-blind-zone-steering-assist-0296_edits_blindzone"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-front-pedestrian-braking-0296_edits_fpbicycle.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/preferred/01-images/safety-and-poster-frames/my26-enclave-mov-safety-front-pedestrian-braking-2400x1800-BUI-2021-0296_Edits_FPBicycle.jpg",
+    "name": "enclave-safety-front-pedestrian-braking-0296_edits_fpbicycle"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-intersection-braking-0296_edits_intbrk.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/preferred/01-images/safety-and-poster-frames/my26-enclave-mov-safety-intersection-braking-2400x1800-BUI-2021-0296_Edits_IntBrk.jpg",
+    "name": "enclave-safety-intersection-braking-0296_edits_intbrk"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-rear-cross-traffic-braking-0296_edits_rearxbrk.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/preferred/01-images/safety-and-poster-frames/my26-enclave-mov-safety-rear-cross-traffic-braking-2400x1800-BUI-2021-0296_Edits_RearXBrk.jpg",
+    "name": "enclave-safety-rear-cross-traffic-braking-0296_edits_rearxbrk"
+   },
+   {
+    "src": "/ace/img/enclave/safety/enclave-safety-side-bicyclist-alert.jpg",
+    "w": 1613,
+    "h": 1210,
+    "source": "/content/dam/buick/na/us/en/index/vehicles/2027/crossovers-suvs/enclave/preferred/01-images/safety-and-poster-frames/my26-enclave-mov-safety-side-bicyclist-alert-2400x1800-BUI-2021-0296_Edits_SideBike.jpg",
+    "name": "enclave-safety-side-bicyclist-alert"
+   }
+  ],
+  "hero": [
+   {
+    "src": "/ace/img/enclave/hero/VA-featured-content-enclave.jpg",
+    "w": 1613,
+    "h": 907,
+    "source": "/content/dam/buick/na/us/en/index/index-subcontent/homepage-redesign/02-images/2026-buick-VA-featured-content-enclave-l-2000x1125-26BUENCL140282.jpg",
+    "name": "VA-featured-content-enclave"
+   },
+   {
+    "src": "/ace/img/enclave/hero/homepage-buick-enclave-avenir.jpg",
+    "w": 1600,
+    "h": 900,
+    "source": "/content/dam/buick/na/us/en/index/index-subcontent/homepage-redesign/02-images/homepage-buick-enclave-avenir-1600x900-v3.jpg",
+    "name": "homepage-buick-enclave-avenir"
+   }
+  ]
+ }
+}

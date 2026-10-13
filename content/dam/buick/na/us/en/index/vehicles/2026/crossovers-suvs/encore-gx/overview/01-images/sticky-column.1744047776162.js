@@ -1,0 +1,15 @@
+/*!
+ * 
+ * name: @gbds/quantum
+ * version: 1.4.13
+ * @gbds/core dependency version: 6.0.0
+ * date: Tue Apr 08 2025 11:48:55 GMT-0500 (Central Daylight Time)
+ * Copyright 2020 GM Global Technology Operations LLC
+ * All Rights Reserved.
+ * This software is proprietary to GM Global Technology Operations LLC
+ * and is protected by intellectual property laws and international
+ * intellectual property treaties. Your access to this software is governed
+ * by the terms of your license agreement with GM Global Technology Operations LLC.
+ * Any other use of the software is strictly prohibited.
+ * 
+ */!function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=395)}({395:function(e,t){(()=>{const e=document.getElementById("sticky-column"),t=e.closest("adv-col"),n=t.nextElementSibling;let o;if(e){const r=document.body.querySelector("gb-secondary-nav");let l=0;r&&(l=r.clientHeight),e.style.position="sticky",e.style.top=l+"px",t.style.position="sticky",t.style.top=l+"px";const i={};let c=0;const s=document.getElementById("sticky-column").firstElementChild.children;for(let e=0;e<s.length;e++){const t=s.item(e).querySelector("gb-wrapper a[href]");i[t.getAttribute("href").replace(/^#/,"")]=s.item(e),c=s.item(e).clientHeight}s.item(0).classList.add("active");let u="up",d=window.scrollY;const a=()=>{o=new IntersectionObserver(e=>{e.forEach(e=>{if(u=window.scrollY>d?"down":"up","down"===u&&!e.isIntersecting||"up"===u&&e.isIntersecting){let t;if("up"===u)t=e.target;else{const n=e.target.closest("adv-col");t=n.nextElementSibling?n.nextElementSibling.querySelector("gb-content-well"):e.target}for(const e in i)e===t.getAttribute("id")?i[e].classList.add("active"):i[e].classList.remove("active")}}),d=window.scrollY},{root:null,rootMargin:`-${c+l}px 0px`,threshold:0}),n.querySelectorAll("gb-content-well[id]").forEach(e=>{o.observe(e)})},f=()=>{window.matchMedia("(min-width: 1200px)").matches?(t.style.zIndex="",t.style.backgroundColor=""):(t.style.zIndex="99",t.style.backgroundColor="#ffffff")};window.addEventListener("resize",()=>{n.querySelectorAll("gb-content-well[id]").forEach(e=>{o.unobserve(e)}),u=window.scrollY>d?"down":"up",d=window.scrollY,a(),f()}),a(),f()}else window.console.warn("WARN:  Could not find sticky column element")})()}});
