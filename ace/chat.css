@@ -277,3 +277,7 @@ a { color: inherit; }
 .ace-compare--single .ace-compare__list { max-width: 723px; }
 body { transition: opacity .2s ease; }
 body.is-leaving { opacity: 0; }
+
+/* the newest turn reserves a full viewport so a new question can scroll to the top */
+.ace-turn:last-child:not(:first-child) { min-height: calc(100vh - 112px - 140px + 8px); }
+@media (max-width: 767px) { .ace-turn:last-child:not(:first-child) { min-height: calc(100vh - 80px - 120px + 8px); } }

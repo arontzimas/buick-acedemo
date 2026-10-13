@@ -18,14 +18,21 @@ window.trackRenderedExperience = window.trackRenderedExperience || function(){};
     }catch(e){}
     return u;
   }
+  // keep third-party analytics / ad pixels / vendor chat out of the demo
+  var BLOCK = /(datadog|browser-intake|brands-api\.ext\.gm\.com\/rum|adobedtm|demdex|omtrdc|adobedc|doubleclick|googletagmanager|google-analytics|facebook|tiktok|bing\.com|pinterest|snapchat|sc-static|linkedin|licdn|decibelinsight|quantummetric|iperceptions|acxiom|agkn|adsrvr|rkdms|tvpixel|clarity\.ms|hotjar|salesforce|msg\.ext\.gm\.com|my\.site\.com|sales-force-chat|criteo|yahoo|teads|innovid|flashtalking|cookielaw|onetrust)/i;
+  function blocked(n){ try { var u = n && (n.src || (n.getAttribute && n.getAttribute('src')) || n.href); return !!(u && BLOCK.test(u) && n.tagName && /^(SCRIPT|IFRAME|IMG|LINK)$/.test(n.tagName)); } catch(e){ return false; } }
+  ['appendChild','insertBefore'].forEach(function(m){ var o = Node.prototype[m]; Node.prototype[m] = function(n){ if (blocked(n)) return n; return o.apply(this, arguments); }; });
+  if (navigator.sendBeacon) { var sb = navigator.sendBeacon.bind(navigator); navigator.sendBeacon = function(u){ return BLOCK.test(String(u)) ? true : sb.apply(null, arguments); }; }
   var of = window.fetch;
   if (of) window.fetch = function(input, init){
+    var raw = typeof input === 'string' ? input : (input && input.url) || '';
+    if (BLOCK.test(raw)) return Promise.resolve(new Response('', { status: 204 }));
     if (typeof input === 'string') input = mapUrl(input);
     else if (input && input.url) { var m = mapUrl(input.url); if (m !== input.url) input = new Request(m, input); }
     return of.call(this, input, init);
   };
   var oo = XMLHttpRequest.prototype.open;
-  XMLHttpRequest.prototype.open = function(method, url){ arguments[1] = mapUrl(url); return oo.apply(this, arguments); };
+  XMLHttpRequest.prototype.open = function(method, url){ arguments[1] = BLOCK.test(String(url)) ? 'data:application/json,{}' : mapUrl(url); return oo.apply(this, arguments); };
 })();
 </script>
 <link rel="stylesheet" href="/ace/ace-bar.css">

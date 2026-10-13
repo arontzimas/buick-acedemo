@@ -276,13 +276,15 @@
         function start() {
           v.play().then(function () { v.addEventListener('playing', function () { box.classList.add('is-playing-video'); }); box.classList.add('is-playing-video'); cb(v); }).catch(function () { cb(v); });
         }
-        if (v.canPlayType('application/vnd.apple.mpegurl')) { v.src = src; start(); }
-        else loadHls().then(function (Hls) {
-          if (!Hls || !Hls.isSupported()) return;
+        v.addEventListener('error', function () { v.remove(); box.classList.remove('is-playing-video'); });
+        function native() { if (v.canPlayType('application/vnd.apple.mpegurl')) { v.src = src; start(); } else v.remove(); }
+        loadHls().then(function (Hls) {
+          if (!Hls || !Hls.isSupported()) return native();
           var h = new Hls({ capLevelToPlayerSize: true, maxBufferLength: 10 });
+          h.on(Hls.Events.ERROR, function (ev, data) { if (data && data.fatal) { h.destroy(); v.remove(); box.classList.remove('is-playing-video'); } });
           h.loadSource(src); h.attachMedia(v);
           h.on(Hls.Events.MANIFEST_PARSED, start);
-        }).catch(function () {});
+        }).catch(native);
       }).catch(function () {});
   }
 
