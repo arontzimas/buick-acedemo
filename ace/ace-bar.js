@@ -194,7 +194,7 @@
     if (document.readyState === 'complete') setTimeout(clear, 60);
     else {
       window.addEventListener('load', function () { setTimeout(clear, 60); });
-      setTimeout(clear, 1400); // don't wait on slow third-party assets
+      setTimeout(clear, 600); // don't wait on slow third-party assets
     }
   }
 
