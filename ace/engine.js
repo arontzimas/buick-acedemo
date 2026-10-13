@@ -481,8 +481,12 @@
 
   function safetyAnswer(id) {
     var v = V(id), list = SAFETY_IMG[id];
-    var lead = v.safety && v.safety.suite
+    var branded = v.safety && v.safety.suite && /^Buick /.test(v.safety.suite);
+    var items0 = (v.safety && v.safety.items) || [];
+    var lead = branded
       ? 'Every ' + full(id) + ' includes ' + v.safety.suite + ', a standard suite of advanced safety and driver assistance features.'
+      : v.safety && v.safety.suite && items0.length >= 2
+      ? 'Every ' + full(id) + ' comes standard with a suite of advanced safety and driver assistance technologies, including ' + items0[0] + ' and ' + items0[3 % items0.length] + '.'
       : 'The ' + full(id) + ' offers a suite of advanced safety and driver assistance technologies, including available Super Cruise® hands-free driver assistance.';
     return { vehicle: id, blocks: [
       T(lead),

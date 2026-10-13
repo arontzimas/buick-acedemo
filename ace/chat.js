@@ -315,10 +315,12 @@
       reveal(turn, nodes, function () { busy = false; bar.input.focus({ preventScroll: true }); });
     }, delay);
   }
+  var asked = {};
   function ask(q) {
     q = (q || '').trim();
     if (!q || busy) return;
     busy = true;
+    asked[q.toLowerCase()] = true;
     var empty = document.querySelector('.ace-empty-wrap'); if (empty) empty.remove();
     var turn = newTurn();
     var u = cUser(E.displayFor(q));
@@ -355,16 +357,44 @@
       input.value = ''; form.classList.remove('is-active'); send.disabled = true;
       ask(q);
     });
+    // suggested questions for whichever vehicle the conversation is about
+    if (window.ACEBar) window.ACEBar.attachSuggest(form, {
+      items: function () {
+        var v = state.vehicle || state.pageVehicle;
+        var pool = window.ACEBar.suggestionsFor(v).concat(window.ACEBar.suggestionsFor(null), E.SUGGESTIONS);
+        var seen = {};
+        return pool.filter(function (q) { var k = q.toLowerCase(); if (asked[k] || seen[k]) return false; seen[k] = true; return true; });
+      },
+      onPick: function (q) { ask(q); },
+      blocked: function () { return busy; }
+    });
     return { input: input };
   })();
 
   /* ---------------- header ---------------- */
   var closeBtn = document.querySelector('.ace-close');
-  closeBtn.addEventListener('click', function () {
-    try { sessionStorage.setItem('ace:return', from); } catch (e) {}
+  var leaving = false;
+  function leave(dest) {
+    if (leaving) return;
+    leaving = true;
+    try {
+      sessionStorage.setItem('ace:return', dest);
+      if (dest !== from) sessionStorage.setItem('ace:scrollY', '0');
+    } catch (e) {}
+    if (document.activeElement) document.activeElement.blur();
     document.body.classList.add('is-leaving');
-    setTimeout(function () { location.href = from; }, 200);
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    setTimeout(function () { location.href = dest; }, reduce ? 200 : 480);
+  }
+  closeBtn.addEventListener('click', function () { leave(from); });
+  var brand = document.querySelector('.ace-header__brand');
+  if (brand) brand.addEventListener('click', function (e) {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+    e.preventDefault();
+    leave('/');
   });
+  // coming back to the chat from the back/forward cache: undo the exit state
+  window.addEventListener('pageshow', function (e) { if (e.persisted) { leaving = false; document.body.classList.remove('is-leaving'); } });
   var header = document.querySelector('.ace-header');
   window.addEventListener('scroll', function () { header.classList.toggle('is-scrolled', window.scrollY > 4); }, { passive: true });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !document.activeElement.closest('.ace-bar')) closeBtn.click(); });

@@ -1,13 +1,26 @@
-/* Buick ACE — "AI Chat" floating bar (Figma: Components / AI Chat, Default + Active, Desktop 474 / Mobile 356) */
+/* Buick ACE — "AI Chat" floating bar (Figma: Components / AI Chat, Default + Active).
+   Desktop is scaled up slightly from the 474x48 component and sits lower; mobile keeps the 356x48 frame. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 .ace-bar, .ace-bar * { box-sizing: border-box !important; }
-form.ace-bar { --ace-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; position: fixed !important; left: 50% !important; bottom: 45px !important; z-index: 900 !important; width: 474px !important; max-width: calc(100vw - 32px) !important; margin: 0 !important; padding: 0 !important; transform: translateX(-50%) !important; border-radius: 12px !important; overflow: hidden !important; box-shadow: 0 4.858px 12.145px rgba(0, 0, 0, 0.2) !important; background: #ffffff !important; transition: opacity .3s ease, transform .3s ease !important; }
+form.ace-bar {
+  --ace-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --ace-ease: cubic-bezier(.22, .61, .36, 1);
+  position: fixed !important; left: 50% !important; bottom: 28px !important; z-index: 900 !important;
+  width: 560px !important; max-width: calc(100vw - 32px) !important;
+  margin: 0 !important; padding: 0 !important;
+  transform: translateX(-50%) !important;
+  border-radius: 14px !important; overflow: hidden !important;
+  box-shadow: 0 4.858px 12.145px rgba(0, 0, 0, 0.2) !important;
+  background: #ffffff !important;
+  transition: opacity .3s ease, transform .3s ease, box-shadow .4s var(--ace-ease) !important;
+}
+form.ace-bar.is-open { box-shadow: 0 10px 32px rgba(0, 0, 0, 0.16), 0 2px 8px rgba(0, 0, 0, 0.08) !important; }
 form.ace-bar.is-hidden { opacity: 0 !important; transform: translate(-50%, 16px) !important; pointer-events: none !important; }
-form.ace-bar div.ace-bar__row { display: flex !important; align-items: center !important; gap: 8px !important; height: 48px !important; padding: 12px 8px 12px 12px !important; background: #ffffff !important; }
-form.ace-bar input.ace-bar__input { flex: 1 1 auto !important; min-width: 0 !important; height: 20px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; outline: 0 !important; background: transparent !important; box-shadow: none !important; -webkit-appearance: none !important; appearance: none !important; color: #232323 !important; font: 400 14px/20px var(--ace-font) !important; letter-spacing: -0.28px !important; text-transform: none !important; }
+form.ace-bar div.ace-bar__row { display: flex !important; align-items: center !important; gap: 12px !important; height: 56px !important; padding: 0 12px 0 20px !important; background: #ffffff !important; }
+form.ace-bar input.ace-bar__input { flex: 1 1 auto !important; min-width: 0 !important; height: 22px !important; margin: 0 !important; padding: 0 !important; border: 0 !important; outline: 0 !important; background: transparent !important; box-shadow: none !important; -webkit-appearance: none !important; appearance: none !important; color: #232323 !important; font: 400 15px/22px var(--ace-font) !important; letter-spacing: -0.3px !important; text-transform: none !important; }
 form.ace-bar input.ace-bar__input::placeholder { color: #707070 !important; opacity: 1 !important; }
-form.ace-bar button.ace-bar__send { flex: 0 0 auto !important; display: flex !important; align-items: center !important; justify-content: center !important; width: 24px !important; height: 24px !important; margin: 0 !important; padding: 4px !important; border: 0 !important; border-radius: 24.29px !important; background: rgba(35, 35, 35, 0.4) !important; cursor: pointer !important; transition: background-color .15s ease !important; }
+form.ace-bar button.ace-bar__send { flex: 0 0 auto !important; display: flex !important; align-items: center !important; justify-content: center !important; width: 32px !important; height: 32px !important; margin: 0 !important; padding: 8px !important; border: 0 !important; border-radius: 50% !important; background: rgba(35, 35, 35, 0.4) !important; cursor: pointer !important; transition: background-color .15s ease !important; }
 form.ace-bar button.ace-bar__send img { display: block !important; width: 16px !important; height: 16px !important; max-width: none !important; }
 form.ace-bar.is-active button.ace-bar__send { background: #232323 !important; }
 form.ace-bar.is-active button.ace-bar__send:hover { background: #4d4d4c !important; }
@@ -18,17 +31,66 @@ form.ace-bar button.ace-bar__send:focus-visible { outline: 2px solid #232323 !im
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 
+/* ---------- suggested questions (open on hover / focus; the card grows upward) ---------- */
+form.ace-bar div.ace-bar__suggest { display: grid !important; grid-template-rows: 0fr !important; margin: 0 !important; padding: 0 !important; background: #ffffff !important; transition: grid-template-rows .42s var(--ace-ease) !important; }
+form.ace-bar.is-open div.ace-bar__suggest { grid-template-rows: 1fr !important; }
+form.ace-bar div.ace-bar__suggest-inner { min-height: 0 !important; overflow: hidden !important; }
+form.ace-bar div.ace-bar__list { display: flex !important; flex-direction: column !important; padding: 8px 0 !important; margin: 0 0 0 0 !important; border-bottom: 1px solid #e2e0dc !important; }
+form.ace-bar button.ace-bar__sugg {
+  display: flex !important; align-items: center !important; gap: 12px !important; width: 100% !important; min-height: 44px !important;
+  margin: 0 !important; padding: 10px 20px !important; border: 0 !important; border-radius: 0 !important; background: transparent !important;
+  color: #232323 !important; font: 400 14px/20px var(--ace-font) !important; letter-spacing: -0.28px !important; text-align: left !important; text-transform: none !important;
+  cursor: pointer !important; opacity: 0; transform: translateY(6px);
+  transition: opacity .3s ease, transform .42s var(--ace-ease), background-color .15s ease, color .15s ease !important;
+}
+form.ace-bar.is-open button.ace-bar__sugg { opacity: 1; transform: none; }
+form.ace-bar.is-open button.ace-bar__sugg:nth-child(1) { transition-delay: .06s, .06s, 0s, 0s !important; }
+form.ace-bar.is-open button.ace-bar__sugg:nth-child(2) { transition-delay: .10s, .10s, 0s, 0s !important; }
+form.ace-bar.is-open button.ace-bar__sugg:nth-child(3) { transition-delay: .14s, .14s, 0s, 0s !important; }
+form.ace-bar.is-open button.ace-bar__sugg:nth-child(4) { transition-delay: .18s, .18s, 0s, 0s !important; }
+form.ace-bar button.ace-bar__sugg:hover, form.ace-bar button.ace-bar__sugg:focus-visible { background: #f7f5f1 !important; outline: 0 !important; }
+form.ace-bar button.ace-bar__sugg img { flex: 0 0 16px !important; width: 16px !important; height: 16px !important; max-width: none !important; opacity: .55; transform: rotate(180deg) scaleY(-1); }
+form.ace-bar button.ace-bar__sugg span { flex: 1 1 auto !important; min-width: 0 !important; }
+
 @media (max-width: 767px) {
-  form.ace-bar { width: calc(100vw - 32px) !important; bottom: 24px !important; }
+  form.ace-bar { width: calc(100vw - 32px) !important; bottom: 24px !important; border-radius: 12px !important; }
+  form.ace-bar div.ace-bar__row { height: 48px !important; gap: 8px !important; padding: 12px 8px 12px 12px !important; }
+  form.ace-bar input.ace-bar__input { height: 20px !important; font: 400 14px/20px var(--ace-font) !important; letter-spacing: -0.28px !important; }
+  form.ace-bar button.ace-bar__send { width: 24px !important; height: 24px !important; padding: 4px !important; }
+  form.ace-bar button.ace-bar__sugg { padding: 10px 12px !important; }
 }
 
-/* page-to-chat transition */
+/* ---------- page -> chat: the page softly defocuses into the chat surface; the bar stays put ---------- */
 .ace-veil {
-  position: fixed; inset: 0; z-index: 2147483000;
-  background: #f7f5f1; opacity: 0; pointer-events: none;
-  transition: opacity .28s ease;
+  position: fixed; inset: 0; z-index: 2147483000; pointer-events: none;
+  background-color: rgba(247, 245, 241, 0);
+  -webkit-backdrop-filter: blur(0px); backdrop-filter: blur(0px);
+  transition: background-color .62s cubic-bezier(.4, 0, .2, 1), -webkit-backdrop-filter .62s cubic-bezier(.4, 0, .2, 1), backdrop-filter .62s cubic-bezier(.4, 0, .2, 1);
 }
-.ace-veil.is-on { opacity: 1; pointer-events: auto; }
+.ace-veil.is-on {
+  pointer-events: auto;
+  background-color: rgba(247, 245, 241, 1);
+  -webkit-backdrop-filter: blur(24px); backdrop-filter: blur(24px);
+}
+form.ace-bar.is-launching { z-index: 2147483001 !important; }
+
+/* ---------- chat -> page: arrive under the same haze and let it clear ---------- */
+html.ace-returning::after {
+  content: ''; position: fixed; inset: 0; z-index: 2147483000; pointer-events: none;
+  background-color: rgba(247, 245, 241, 1);
+  -webkit-backdrop-filter: blur(24px); backdrop-filter: blur(24px);
+  transition: background-color .8s cubic-bezier(.4, 0, .2, 1), -webkit-backdrop-filter .9s cubic-bezier(.4, 0, .2, 1), backdrop-filter .9s cubic-bezier(.4, 0, .2, 1);
+}
+html.ace-returning.ace-clearing::after {
+  background-color: rgba(247, 245, 241, 0);
+  -webkit-backdrop-filter: blur(0px); backdrop-filter: blur(0px);
+}
+html.ace-returning form.ace-bar { z-index: 2147483001 !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ace-veil, html.ace-returning::after { transition-duration: .2s !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+  form.ace-bar div.ace-bar__suggest, form.ace-bar button.ace-bar__sugg { transition-duration: .01s !important; transition-delay: 0s !important; }
+}
 
 /* hide buick.com geo-IP country banner in the demo */
 gb-geo-ip-notification, .gb-geo-ip-notification-container { display: none !important; }

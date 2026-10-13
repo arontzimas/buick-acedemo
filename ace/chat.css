@@ -2,6 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 html, body { margin: 0; padding: 0; background: var(--ace-surface); color: var(--ace-text); }
+body { overflow-x: clip; }
 body { font-family: var(--ace-font); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 img { display: block; max-width: 100%; }
 button { font: inherit; color: inherit; }
@@ -20,8 +21,25 @@ a { color: inherit; }
   position: sticky; top: 0; z-index: 20;
   display: flex; align-items: center; justify-content: space-between;
   padding: 32px var(--ace-margin);
-  background: var(--ace-surface);
+  background: transparent;
+  isolation: isolate;
 }
+/* the conversation scrolls behind the header: a wash of the surface colour + a blur that fades out at the bottom edge */
+.ace-header::before {
+  content: ''; position: absolute; z-index: -1; pointer-events: none;
+  top: 0; bottom: -28px; left: calc(50% - 50vw); right: calc(50% - 50vw); /* full bleed, so the blur has no side edges */
+  background: linear-gradient(to bottom, rgba(247, 245, 241, .86) 0%, rgba(247, 245, 241, .62) 55%, rgba(247, 245, 241, 0) 100%);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 62%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, #000 62%, transparent 100%);
+}
+/* Buick wordmark, centred where it sits in the buick.com nav (155x44) */
+.ace-header__brand {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  display: block; width: 155px; height: 44px; border-radius: 4px;
+}
+.ace-header__brand img { width: 155px; height: 44px; max-width: none; object-fit: contain; }
+.ace-header__brand:focus-visible { outline: 2px solid var(--ace-text); outline-offset: 4px; }
 .ace-header__logo { display: block; width: 24px; height: 24px; }
 .ace-header__logo img { width: 24px; height: 24px; }
 .ace-iconbtn {
@@ -35,7 +53,6 @@ a { color: inherit; }
 }
 .ace-iconbtn:hover, .ace-iconbtn:focus-visible { background: var(--ace-bg-secondary-hover); }
 .ace-iconbtn img { width: 16px; height: 16px; max-width: none; }
-.ace-header.is-scrolled { box-shadow: 0 1px 0 var(--ace-divider); }
 
 /* ---------- motion ---------- */
 .ace-turn > .ace-block { opacity: 0; transform: translateY(10px); }
@@ -229,6 +246,7 @@ a { color: inherit; }
 @media (max-width: 767px) {
   .ace-page { padding-bottom: 120px; }
   .ace-header { padding: 16px var(--ace-margin); }
+  .ace-header::before { -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); bottom: -20px; }
 
   .ace-user__bubble { max-width: 254px; padding: 12px var(--ace-btn-px); }
   .ace-ai__text { width: 100%; }
@@ -275,8 +293,17 @@ a { color: inherit; }
 .ace-carousel__item.is-link:hover .ace-carousel__desc p:first-child { color: var(--ace-text-2); }
 .ace-compare--single { padding-top: 12px; }
 .ace-compare--single .ace-compare__list { max-width: 723px; }
-body { transition: opacity .2s ease; }
-body.is-leaving { opacity: 0; }
+/* arrive: the chat surface settles in out of the haze; leave: it dissolves back into it (the bar stays put) */
+.ace-page { animation: ace-arrive .8s cubic-bezier(.22, .61, .36, 1) .04s backwards; }
+@keyframes ace-arrive { from { opacity: 0; transform: translateY(14px); filter: blur(6px); } }
+body.is-leaving .ace-page {
+  opacity: 0; transform: translateY(10px); filter: blur(8px);
+  transition: opacity .42s cubic-bezier(.4, 0, .2, 1), transform .5s cubic-bezier(.4, 0, .2, 1), filter .5s cubic-bezier(.4, 0, .2, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ace-page { animation: none; }
+  body.is-leaving .ace-page { transform: none; filter: none; transition: opacity .2s ease; }
+}
 
 /* the newest turn reserves a full viewport so a new question can scroll to the top */
 .ace-turn:last-child:not(:first-child) { min-height: calc(100vh - 112px - 140px + 8px); }
