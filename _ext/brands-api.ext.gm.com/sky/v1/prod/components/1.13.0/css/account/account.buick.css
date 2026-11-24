@@ -1,0 +1,15 @@
+/*
+name: @skyhawk/components
+version: 1.13.0
+date: Wed Nov 18 2026 21:01:09 GMT+0000 (Coordinated Universal Time)
+Copyright 2025 GM Global Technology Operations LLC
+All Rights Reserved.
+This software is proprietary to GM Global Technology Operations LLC
+and is protected by intellectual property laws and international
+intellectual property treaties. Your access to this software is governed
+by the terms of your license agreement with GM Global Technology Operations LLC.
+Any other use of the software is strictly prohibited.
+*/
+
+@layer gmx.components{gmx-account{.hidden{display:none}.gmx-account-btn:not(.hidden){align-items:center;color:var(--display5-color);display:inline-flex;font:var(--display5-font);letter-spacing:var(--display5-letter-spacing);vertical-align:middle}.gmx-account-rewards{flex-shrink:0;margin-inline-start:var(--spacing-8)}.gmx-sign-in{text-decoration:none;&:focus,&:hover{cursor:pointer}}}}
+/*# sourceMappingURL=account.buick.css.map */

@@ -1,0 +1,15 @@
+/*
+name: @skyhawk/components
+version: 1.13.0
+date: Wed Nov 18 2026 21:01:09 GMT+0000 (Coordinated Universal Time)
+Copyright 2025 GM Global Technology Operations LLC
+All Rights Reserved.
+This software is proprietary to GM Global Technology Operations LLC
+and is protected by intellectual property laws and international
+intellectual property treaties. Your access to this software is governed
+by the terms of your license agreement with GM Global Technology Operations LLC.
+Any other use of the software is strictly prohibited.
+*/
+
+@layer gmx.components{gmx-action-tile{--action-tile-min-aspect-ratio-padding:100%;display:block;min-inline-size:0;&:before{content:"";float:left;padding-bottom:var(--action-tile-min-aspect-ratio-padding)}@media (width >= 481px){--action-tile-min-aspect-ratio-padding:50%}@media (width >= 900px){--action-tile-min-aspect-ratio-padding:56.25%}&:has(.gmx-action-tile-4x3){--action-tile-min-aspect-ratio-padding:75%}}.gmx-action-tile{--action-tile-icon-size:var(--sizing-32);--action-tile-padding:var(--utility-padding);background-color:var(--colors-tile-default);border-radius:var(--radius-large);box-sizing:border-box;color:var(--colors-content-primary);display:flex;flex-direction:column;height:100%;justify-content:space-between;min-inline-size:0;padding:var(--action-tile-padding);text-align:start;text-decoration:none;width:100%;&:before{--icon-height:var(--action-tile-icon-size);--icon-width:var(--action-tile-icon-size)}&:hover{background-color:var(--colors-tile-hover)}&:focus-visible{background-color:var(--colors-tile-focus);outline:var(--border-focus) solid var(--colors-border-focus);outline-offset:var(--spacing-4)}&:active{background-color:var(--colors-tile-active)}.tile-heading{font:var(--display5-font);letter-spacing:var(--display5-letter-spacing);text-wrap:balance}@media (width >= 1280px){--action-tile-icon-size:var(--sizing-48)}}}@layer gmx.foundation.components{gmx-layout:has(>gmx-action-tile){grid-auto-rows:1fr;grid-template-rows:1fr}}
+/*# sourceMappingURL=action-tile.buick.css.map */

@@ -1,0 +1,15 @@
+/*
+name: @skyhawk/components
+version: 1.13.0
+date: Wed Nov 18 2026 21:01:09 GMT+0000 (Coordinated Universal Time)
+Copyright 2025 GM Global Technology Operations LLC
+All Rights Reserved.
+This software is proprietary to GM Global Technology Operations LLC
+and is protected by intellectual property laws and international
+intellectual property treaties. Your access to this software is governed
+by the terms of your license agreement with GM Global Technology Operations LLC.
+Any other use of the software is strictly prohibited.
+*/
+
+gmx-model-card{margin-block-end:var(--spacing-16);padding-block-end:var(--spacing-12);--model-name-color:var(--display4-color);--model-name-font:var(--display4-font);--model-name-letter-spacing:var(--display4-letter-spacing);--model-tagline-color:var(--paragraph1-color);--model-tagline-font:var(--paragraph1-font);--model-tagline-letter-spacing:var(--paragraph1-letter-spacing);--model-price-color:var(--colors-content-secondary);--model-price-font:var(--paragraph1-font);--model-price-letter-spacing:var(--paragraph1-letter-spacing);--model-as-shown-color:var(--colors-content-secondary);--model-as-shown-font:var(--legal-font);--model-as-shown-letter-spacing:var(--legal-letter-spacing);--model-as-shown-top-padding:var(--spacing-4);img{width:100%}>a{border-radius:1px;display:inline-block;outline-offset:var(--spacing-16);text-decoration:none;&:focus-visible{outline:var(--border-active) solid var(--colors-border-focus)}}.inner-card{.model-name{color:var(--model-name-color);font:var(--model-name-font);letter-spacing:var(--model-name-letter-spacing);padding-block-end:var(--spacing-8)}.model-tagline{color:var(--model-tagline-color);font:var(--model-tagline-font);letter-spacing:var(--model-tagline-letter-spacing)}.model-price{color:var(--model-price-color);font:var(--model-price-font);letter-spacing:var(--model-price-letter-spacing)}.model-as-shown{color:var(--model-as-shown-color);font:var(--model-as-shown-font);letter-spacing:var(--model-as-shown-letter-spacing);padding-block-start:var(--model-as-shown-top-padding)}}}
+/*# sourceMappingURL=model-card.buick.css.map */

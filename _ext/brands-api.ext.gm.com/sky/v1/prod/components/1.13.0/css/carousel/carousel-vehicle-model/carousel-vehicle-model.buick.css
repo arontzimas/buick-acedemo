@@ -1,0 +1,15 @@
+/*
+name: @skyhawk/components
+version: 1.13.0
+date: Wed Nov 18 2026 21:01:09 GMT+0000 (Coordinated Universal Time)
+Copyright 2025 GM Global Technology Operations LLC
+All Rights Reserved.
+This software is proprietary to GM Global Technology Operations LLC
+and is protected by intellectual property laws and international
+intellectual property treaties. Your access to this software is governed
+by the terms of your license agreement with GM Global Technology Operations LLC.
+Any other use of the software is strictly prohibited.
+*/
+
+gmx-carousel-vehicle-model{--carousel-margin:0 0 var(--spacing-40);--carousel-slide-img-padding-inline:var(--spacing-4);--carousel-overflow-col-ratio:0.13;--carousel-slide-aspect-ratio:7 / 3;--carousel-model-info-container-width:100%;display:block;.model-info-container{margin-inline:auto;position:relative;text-align:center;width:var(--carousel-model-info-container-width);div>span:not(:first-child):before{content:"|";display:inline-block;padding:0 var(--spacing-8)}.model-description,.model-name{margin-bottom:var(--spacing-4)}.model-description,.model-price{color:var(--colors-content-primary);display:flex;font:var(--paragraph1-font);justify-content:center;letter-spacing:var(--paragraph1-letter-spacing)}.model-description{flex-direction:column}.model-name{color:var(--colors-content-primary);font:var(--display4-font);letter-spacing:var(--display4-letter-spacing)}.cta-container{display:inline-flex;gap:var(--spacing-12);margin-top:var(--spacing-24)}.model-info{padding-inline:calc(var(--base-grid-padding)*3);&.animate{animation:gmx-fade-in var(--duration-moderate) var(--ease-expressive) forwards}&.prev-model{left:50%;position:absolute;top:0;transform:translateX(-50%);width:100%;z-index:1;&.animate{animation:gmx-fade-out var(--duration-moderate) var(--ease-expressive) forwards}}}}.model-scroller-container{margin:var(--carousel-margin);overflow:hidden;position:relative;width:100%;&:before{content:"";display:block;padding-top:calc(42.85714%*(1 - var(--carousel-overflow-col-ratio)*2))}gmx-carousel{height:auto;inset:0;position:absolute;width:auto;.slide{aspect-ratio:var(--carousel-slide-aspect-ratio);>img,>svg{aspect-ratio:var(--carousel-slide-aspect-ratio);-o-object-fit:cover;object-fit:cover;padding-inline:var(--carousel-slide-img-padding-inline);pointer-events:none}}}}@media (width >= 481px){--carousel-slide-img-padding-inline:var(--spacing-20);--carousel-model-info-container-width:var(--inset-2-col)}@media (width >= 900px){--carousel-slide-img-padding-inline:var(--spacing-24);--carousel-margin:0 0 var(--spacing-16);--carousel-overflow-col-ratio:0.17;--carousel-model-info-container-width:var(--inset-4-col)}@media (width >= 1280px){--carousel-slide-img-padding-inline:var(--spacing-80);--carousel-margin:0 0 var(--spacing-32)}@media (width >= 1922px){.cta-container{a,button{height:var(--sizing-64);line-height:var(--sizing-64)}}}}
+/*# sourceMappingURL=carousel-vehicle-model.buick.css.map */

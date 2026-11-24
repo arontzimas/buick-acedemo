@@ -33,12 +33,12 @@ a { color: inherit; }
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 62%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 62%, transparent 100%);
 }
-/* Buick wordmark, centred where it sits in the buick.com nav (155x44) */
+/* Buick shield, centred as in the buick.com nav (34px mark inside a 60px target) */
 .ace-header__brand {
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  display: block; width: 155px; height: 44px; border-radius: 4px;
+  display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 8px;
 }
-.ace-header__brand img { width: 155px; height: 44px; max-width: none; object-fit: contain; }
+.ace-header__brand img { width: 34px; height: 34px; max-width: none; object-fit: contain; }
 .ace-header__brand:focus-visible { outline: 2px solid var(--ace-text); outline-offset: 4px; }
 .ace-header__logo { display: block; width: 24px; height: 24px; }
 .ace-header__logo img { width: 24px; height: 24px; }

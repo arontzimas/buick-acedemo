@@ -231,11 +231,29 @@
       return;
     }
     if (sameOrigin) {
-      e.preventDefault();
       var dest = 'https://www.buick.com' + url.pathname + url.search + url.hash;
-      if (a.target === '_blank') window.open(dest, '_blank', 'noopener'); else location.href = dest;
+      // new buick.com design: its own components open menus and panels from links, so let the
+      // page handle the click first and only hand off afterwards (see the listener below)
+      if (document.body.classList.contains('gmx-basic-page')) { pending = { e: e, a: a, dest: dest }; return; }
+      e.preventDefault();
+      leaveTo(a, dest);
     }
   }, true);
+  // lead forms are not part of the demo: their buttons carry the matching buick.com page (tools/build_home.mjs)
+  if (!IS_CHAT) document.addEventListener('click', function (e) {
+    var t = e.target && e.target.closest && e.target.closest('[data-ace-handoff]');
+    if (!t || e.button !== 0) return;
+    e.preventDefault(); e.stopPropagation();
+    location.href = t.getAttribute('data-ace-handoff');
+  }, true);
+  var pending = null;
+  function leaveTo(a, dest) { if (a.target === '_blank') window.open(dest, '_blank', 'noopener'); else location.href = dest; }
+  if (!IS_CHAT) window.addEventListener('click', function (e) {
+    var p = pending; pending = null;
+    if (!p || p.e !== e || e.defaultPrevented) return;
+    e.preventDefault();
+    leaveTo(p.a, p.dest);
+  });
 
   /* iOS: avoid input auto-zoom on focus (14px type per design) */
   if (/iP(hone|od|ad)/.test(navigator.userAgent)) {

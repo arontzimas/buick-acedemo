@@ -1,0 +1,15 @@
+/*
+name: @skyhawk/components
+version: 1.13.0
+date: Wed Nov 18 2026 21:01:09 GMT+0000 (Coordinated Universal Time)
+Copyright 2025 GM Global Technology Operations LLC
+All Rights Reserved.
+This software is proprietary to GM Global Technology Operations LLC
+and is protected by intellectual property laws and international
+intellectual property treaties. Your access to this software is governed
+by the terms of your license agreement with GM Global Technology Operations LLC.
+Any other use of the software is strictly prohibited.
+*/
+
+@layer gmx.components{gmx-text-card{display:grid;a,button{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:0;border-radius:1px;display:inline-block;outline-offset:var(--spacing-16);text-align:start;text-decoration:none;&:focus-visible{outline:var(--border-active) solid var(--colors-border-focus)}}>.inner-card{&:after{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2219%22%20height%3D%2216%22%20fill%3D%22none%22%20viewBox%3D%220%200%2019%2016%22%3E%3Cpath%20fill%3D%22%23232323%22%20d%3D%22M18.677%208.445a.5.5%200%200%200%200-.707L11.854.915a.5.5%200%200%200-.708%200l-.353.354a.5.5%200%200%200%200%20.707l5.366%205.366H1.469a.5.5%200%200%200-.5.5v.5a.5.5%200%200%200%20.5.5h14.69l-5.366%205.366a.5.5%200%200%200%200%20.707l.353.354a.5.5%200%200%200%20.707%200z%22%2F%3E%3C%2Fsvg%3E");background-position:50%;background-repeat:no-repeat;content:"";display:inline-block;height:var(--sizing-24);margin-block-start:var(--spacing-80);width:var(--sizing-24)}>.text-card-title{color:var(--colors-content-primary);font:var(--display4-font);letter-spacing:var(--display4-letter-spacing)}>p{color:var(--colors-content-secondary);font:var(--display5-font);letter-spacing:var(--display5-letter-spacing);margin-block-start:var(--spacing-4)}}@media (width <=899px){>.inner-card{padding-block:var(--spacing-32);padding-inline-end:var(--spacing-64);position:relative;&:after{inset-block-start:50%;inset-inline-end:0;margin-block-start:0;position:absolute;transform:translateY(-50%)}>.text-card-title{font:var(--display5-font);letter-spacing:var(--display5-letter-spacing)}>p{font:var(--paragraph2-font);letter-spacing:var(--paragraph2-letter-spacing)}}}@media (width >= 900px){>.inner-card{padding:var(--spacing-16) 0}}}}
+/*# sourceMappingURL=text-card.buick.css.map */

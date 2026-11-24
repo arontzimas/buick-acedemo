@@ -1,0 +1,37 @@
+<script>
+/* ACE: arriving back from the chat starts under the chat haze (ace-bar.js clears it) */
+(function(){try{var p=location.pathname.replace(/\/index\.html$/,'').replace(/\/+$/,'')||'/';if(sessionStorage.getItem('ace:return')===p){var d=document.documentElement;d.classList.add('ace-returning');setTimeout(function(){if(d.classList.contains('ace-returning'))d.classList.add('ace-clearing');},3000);}}catch(e){}})();
+/* ACE demo shim: keep analytics, ad pixels, bot sensors and vendor chat out of the demo, and serve mirrored buick.com data */
+window._satellite = window._satellite || {track:function(){},pageBottom:function(){},getVar:function(){},setVar:function(){},cookie:{get:function(){},set:function(){}}};
+(function(){
+  var SKY = 'https://brands-api.ext.gm.com/sky/v1/prod/';
+  function mapUrl(u){
+    try{
+      var s = String(u);
+      if (s.indexOf(SKY) === 0) return '/_ext/brands-api.ext.gm.com/sky/v1/prod/' + s.slice(SKY.length);
+      var url = new URL(s, location.href);
+      var mine = url.origin === location.origin || url.hostname === 'www.buick.com';
+      if (mine && url.pathname.indexOf('/api/vehicles/') === 0) return '/_api' + url.pathname + url.search;
+      if (url.hostname === 'www.buick.com' && /^\/(content|_api)\//.test(url.pathname)) return url.pathname + url.search;
+    }catch(e){}
+    return u;
+  }
+  var BLOCK = /(datadog|browser-intake|brands-api\.ext\.gm\.com\/rum|adobedtm|demdex|omtrdc|adobedc|doubleclick|googletagmanager|google-analytics|facebook|tiktok|bing\.com|pinterest|snapchat|sc-static|linkedin|licdn|decibelinsight|quantummetric|iperceptions|acxiom|agkn|adsrvr|rkdms|tvpixel|clarity\.ms|hotjar|salesforce|force\.com|msg\.ext\.gm\.com|my\.site\.com|sales-force-chat|criteo|yahoo|teads|innovid|flashtalking|cookielaw|onetrust|metrics\.brightcove|custlogin\.gm\.com|gbpe-auth|go-mpulse|medallia|kampyle|qualtrics|contentsquare)/i;
+  function blocked(n){ try { var u = n && (n.src || (n.getAttribute && n.getAttribute('src')) || n.href); return !!(u && BLOCK.test(u) && n.tagName && /^(SCRIPT|IFRAME|IMG|LINK)$/.test(n.tagName)); } catch(e){ return false; } }
+  function local(n){ try { if (n && n.tagName === 'SCRIPT' && n.src && n.src.indexOf(SKY) === 0) n.src = mapUrl(n.src); else if (n && n.tagName === 'LINK' && n.href && n.href.indexOf(SKY) === 0) n.href = mapUrl(n.href); } catch(e){} }
+  ['appendChild','insertBefore'].forEach(function(m){ var o = Node.prototype[m]; Node.prototype[m] = function(n){ if (blocked(n)) return n; local(n); return o.apply(this, arguments); }; });
+  try { var ds = Object.getOwnPropertyDescriptor(HTMLImageElement.prototype, 'src'); if (ds && ds.set) Object.defineProperty(HTMLImageElement.prototype, 'src', { configurable: true, enumerable: ds.enumerable, get: ds.get, set: function(v){ if (BLOCK.test(String(v))) return; ds.set.call(this, v); } }); } catch(e){}
+  if (navigator.sendBeacon) { var sb = navigator.sendBeacon.bind(navigator); navigator.sendBeacon = function(u){ return BLOCK.test(String(u)) ? true : sb.apply(null, arguments); }; }
+  var of = window.fetch;
+  if (of) window.fetch = function(input, init){
+    var raw = typeof input === 'string' ? input : (input && input.url) || '';
+    if (BLOCK.test(raw)) return Promise.resolve(new Response('', { status: 204 }));
+    if (typeof input === 'string') input = mapUrl(input);
+    else if (input && input.url) { var m = mapUrl(input.url); if (m !== input.url) input = new Request(m, input); }
+    return of.call(this, input, init);
+  };
+  var oo = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method, url){ arguments[1] = BLOCK.test(String(url)) ? 'data:application/json,{}' : mapUrl(url); return oo.apply(this, arguments); };
+})();
+</script>
+<link rel="stylesheet" href="/ace/ace-bar.css">
